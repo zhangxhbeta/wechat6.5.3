@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lb" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/cz5" android:background="@drawable/aau" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" style="@style/MMFooter">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/bb" android:layout_gravity="bottom" android:id="@id/cz6" android:background="@drawable/af3" android:layout_width="0.0dip" android:layout_marginTop="8.0dip" android:maxHeight="@dimen/cl" android:minHeight="@dimen/cm" android:singleLine="false" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/pl" style="@style/MMEditText" />
+            <ImageButton android:id="@id/cz7" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dl" android:contentDescription="@string/a0c" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cz8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip">
+            <Button android:textColor="#1a000000" android:id="@id/cz9" android:background="@drawable/lu" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="@dimen/cp" android:layout_marginBottom="8.0dip" android:minWidth="@dimen/cr" android:text="@string/a4q" />
+            <Button android:textColor="@color/se" android:id="@id/cz_" android:background="@drawable/bn" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cp" android:layout_marginBottom="8.0dip" android:minWidth="@dimen/cr" android:text="@string/a4q" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

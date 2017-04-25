@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kv" android:paddingLeft="@dimen/hf" android:paddingTop="@dimen/hf" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.MMFormInputView android:id="@id/b9p" form:form_layout="@layout/yq" form:form_title="@string/bbn" form:form_hint="@string/bbo" style="@style/MMFormInputView" />
+    <com.tencent.mm.ui.base.MMFormInputView android:id="@id/b9q" form:form_layout="@layout/ys" form:form_title="@string/c07" form:form_hint="@string/bc5" style="@style/MMFormInputView" />
+    <Button android:id="@id/b9r" android:layout_marginTop="@dimen/gm" android:layout_marginBottom="@dimen/i_" android:text="@string/bc0" style="@style/MMSolidGreenLargeButton" />
+    <Button android:textSize="@dimen/gc" android:textColor="@color/rm" android:layout_gravity="center" android:id="@id/b9s" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i_" android:text="@string/bc_" />
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/b9t" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gn">
+        <ImageView android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/a5l" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/rr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/cad" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

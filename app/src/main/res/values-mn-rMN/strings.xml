@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">Нүүр хуудас руу шилжих</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">Дээш шилжих</string>
+    <string name="abc_action_menu_overflow_description">Нэмэлт сонголтууд</string>
+    <string name="j">Дууссан</string>
+    <string name="k">Бүгдийг харах</string>
+    <string name="l">Апп сонгох</string>
+    <string name="m">ИДЭВХГҮЙ</string>
+    <string name="n">ИДЭВХТЭЙ</string>
+    <string name="o">Хайх...</string>
+    <string name="p">Асуулгыг цэвэрлэх</string>
+    <string name="q">Хайх асуулга</string>
+    <string name="r">Хайх</string>
+    <string name="s">Асуулгыг илгээх</string>
+    <string name="t">Дуут хайлт</string>
+    <string name="u">Хуваалцах</string>
+    <string name="v">Хумих</string>
+    <string name="w">999+</string>
+    <string name="x">%s-тай хуваалцах</string>
+</resources>

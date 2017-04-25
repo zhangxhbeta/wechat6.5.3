@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>@string/bwy</item>
+        <item>@string/bwz</item>
+        <item>@string/bws</item>
+    </string-array>
+    <string-array name="b">
+        <item>@string/bgp</item>
+        <item>@string/d_b</item>
+        <item>@string/d_d</item>
+        <item>@string/d_a</item>
+    </string-array>
+    <string-array name="c">
+        <item>@string/bgp</item>
+        <item>@string/d_c</item>
+        <item>@string/d_a</item>
+    </string-array>
+    <string-array name="d">
+        <item>@string/bgp</item>
+        <item>@string/d_b</item>
+        <item>@string/d_d</item>
+        <item>@string/d_a</item>
+    </string-array>
+    <string-array name="e">
+        <item>@string/bgp</item>
+        <item>@string/d_a</item>
+    </string-array>
+    <string-array name="f">
+        <item>@string/bgp</item>
+        <item>@string/d_b</item>
+        <item>@string/d_d</item>
+        <item>@string/d_a</item>
+        <item>@string/d_e</item>
+    </string-array>
+    <string-array name="g">
+        <item>@string/bgp</item>
+        <item>@string/d_b</item>
+        <item>@string/d_d</item>
+        <item>@string/d_a</item>
+        <item>@string/d_e</item>
+    </string-array>
+    <string-array name="h">
+        <item>@string/c30</item>
+        <item>@string/c7i</item>
+        <item>@string/bsq</item>
+    </string-array>
+    <string-array name="i">
+        <item>@string/c30</item>
+        <item>@string/c7i</item>
+    </string-array>
+    <string-array name="j">
+        <item>@string/dlw</item>
+        <item>@string/dlx</item>
+        <item>@string/bsq</item>
+    </string-array>
+    <string-array name="k">
+        <item>@string/a8e</item>
+        <item>@string/ab5</item>
+        <item>@string/aau</item>
+    </string-array>
+    <string-array name="l">
+        <item>@string/a8e</item>
+        <item>@string/ab5</item>
+    </string-array>
+    <string-array name="m">
+        <item>@string/hj</item>
+        <item>@string/h_</item>
+        <item>@string/h5</item>
+    </string-array>
+    <string-array name="n">
+        <item>@string/d5m</item>
+    </string-array>
+    <string-array name="o">
+        <item>@string/dim</item>
+        <item>@string/di2</item>
+    </string-array>
+    <string-array name="p">
+        <item>@string/dej</item>
+    </string-array>
+    <string-array name="q">
+        <item>Verification Code</item>
+    </string-array>
+</resources>

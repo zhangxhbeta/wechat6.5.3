@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/r0" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/by_" android:layout_width="@dimen/ez" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/c4" android:layout_marginRight="@dimen/gs" android:text="@string/a_7" style="@style/MMPreferenceTextLarge" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bya" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/gj" android:showDividers="middle">
+        <include layout="@layout/profile_phone_item" />
+        <include layout="@layout/profile_phone_item" />
+        <include layout="@layout/profile_phone_item" />
+        <include layout="@layout/profile_phone_item" />
+        <include layout="@layout/profile_phone_item" />
+    </LinearLayout>
+</LinearLayout>

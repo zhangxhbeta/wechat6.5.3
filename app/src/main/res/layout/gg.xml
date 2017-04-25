@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/a2v" android:background="@drawable/l7" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/a40" android:background="@drawable/s6" android:paddingBottom="@dimen/hf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <include layout="@layout/chatting_item_avatar_from" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:gravity="center_vertical" android:id="@id/ia" android:paddingLeft="@dimen/i_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:id="@id/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="@dimen/id" android:text="@string/a" android:maxLines="2" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffb2b2b2" android:id="@id/a2w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" android:text="@string/a" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a41" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/a42" android:background="@drawable/s6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/gj" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/io" android:id="@id/a32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj" android:text="@string/a2r" />
+</LinearLayout>

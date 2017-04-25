@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="10.0dip" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="top" android:id="@id/hz" android:background="@null" android:layout_width="fill_parent" android:layout_height="130.0dip" android:hint="@string/bx7" android:singleLine="false" style="@style/MMEditText" />
+    <TextView android:id="@id/c96" android:layout_marginTop="20.0dip" android:text="@string/cc2" style="@style/MMSolidRedLargeButton" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/kv" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/gn" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:text="@string/bzs" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/om" android:background="@drawable/e3" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="fill_parent" android:layout_height="@dimen/i9" android:layout_marginBottom="@dimen/gm">
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bzx" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/qw" android:id="@id/oo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad7" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gm">
+            <EditText android:textSize="@dimen/hg" android:textColor="@color/hy" android:gravity="center" android:id="@id/on" android:background="@drawable/af3" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/ad6" android:inputType="phone" />
+            <com.tencent.mm.ui.base.MMClearEditText android:textSize="@dimen/hg" android:textColorHint="@color/hv" android:id="@id/b_9" android:background="@drawable/zj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bzw" android:inputType="phone">
+                <requestFocus />
+            </com.tencent.mm.ui.base.MMClearEditText>
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/bos" style="@style/MMLine">
+            <CheckBox android:textSize="13.0dip" android:textColor="@color/bb" android:id="@id/bo0" android:paddingLeft="25.0dip" android:visibility="gone" android:checked="true" android:text="@string/bab" style="@style/RegUICheckBox" />
+            <TextView android:textSize="@dimen/ie" android:textColor="@color/hy" android:id="@id/bot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bac" />
+            <Button android:textSize="@dimen/ie" android:textColor="@color/rm" android:id="@id/bo1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bad" />
+        </LinearLayout>
+        <Button android:id="@id/b_8" style="@style/RegUIHyperText" />
+    </LinearLayout>
+</ScrollView>

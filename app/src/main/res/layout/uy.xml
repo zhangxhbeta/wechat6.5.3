@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/r0" android:paddingLeft="@dimen/j7" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/j7" android:paddingRight="@dimen/j7" android:paddingBottom="@dimen/j7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="60.0dip">
+        <ImageView android:id="@id/ama" android:layout_width="@dimen/iv" android:layout_height="@dimen/iv" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/ix" android:textColor="@color/bb" android:ellipsize="end" android:id="@id/ml" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h0" android:maxLines="1" android:maxLength="15" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:gravity="right" android:id="@id/b7y" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:minHeight="0.0dip" android:hint="@string/b_u" wallet:layoutRes="@layout/ux" wallet:contentHint="@string/b_u" wallet:contentGravity="c3|c9" style="@style/WalletMoneyStyle" />
+            <TextView android:textSize="@dimen/ix" android:textColor="@color/bb" android:id="@id/b7z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b_t" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/g8" android:background="@drawable/c" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

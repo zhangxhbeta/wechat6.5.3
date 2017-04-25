@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/cg5" android:key="settings_notification_preference" android:layout="@layout/z1" />
+    <Preference android:title="@string/cd4" android:key="settings_active_time" android:layout="@layout/z1" />
+    <Preference android:title="@string/cdp" android:key="settings_chatting" android:layout="@layout/z1" />
+    <Preference android:title="@string/ccy" android:key="settings_about_privacy" android:layout="@layout/z1" />
+    <Preference android:title="@string/ccv" android:key="settings_about_device" android:layout="@layout/z1" />
+    <Preference android:title="@string/cd0" android:key="settings_about_system" android:layout="@layout/z1" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:title="@string/cd1" android:key="settings_account_info" android:layout="@layout/z1" />
+    <Preference android:title="@string/cgz" android:key="settings_push_software" android:layout="@layout/z1" />
+    <Preference android:title="@string/cex" android:key="settings_like_facebook" android:layout="@layout/z1" />
+    <Preference android:title="@string/cei" android:key="settings_follow_twitter" android:layout="@layout/z1" />
+    <PreferenceSmallCategory />
+    <IconPreference android:title="@string/ccx" android:key="settings_about_micromsg" />
+    <Preference android:title="@string/cf4" android:key="settings_logout" android:layout="@layout/z1" />
+    <PreferenceCategory />
+</PreferenceScreen>

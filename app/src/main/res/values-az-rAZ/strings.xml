@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">Evə get</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">Yuxarı get</string>
+    <string name="abc_action_menu_overflow_description">Daha çox seçim</string>
+    <string name="j">Hazırdır</string>
+    <string name="k">Hamısına baxın</string>
+    <string name="l">Tətbiq seçin</string>
+    <string name="m">DEAKTİV</string>
+    <string name="n">AKTİV</string>
+    <string name="o">Axtarış...</string>
+    <string name="p">Sorğunu təmizlə</string>
+    <string name="q">Axtarış sorğusu</string>
+    <string name="r">Axtarış</string>
+    <string name="s">Sorğunu göndərin</string>
+    <string name="t">Səsli axtarış</string>
+    <string name="u">Bununla paylaşın</string>
+    <string name="v">Dağıt</string>
+    <string name="w">999+</string>
+</resources>

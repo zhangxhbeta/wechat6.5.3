@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/oa" android:layout_width="fill_parent" android:layout_height="@dimen/i9">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="26.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:id="@id/ak2" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@raw/enterprise_biz_entry_icon" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/ak3" android:visibility="gone" android:layout_marginTop="@dimen/hh" android:layout_marginRight="@dimen/bv" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UnreadDotStyle" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/gc" android:textColor="#ff5d6063" android:id="@id/lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ajl" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageButton android:id="@id/ak4" android:background="#00000000" android:paddingLeft="25.0dip" android:paddingRight="15.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="63.0dip" android:layout_height="@dimen/i9" android:src="@raw/enterprise_wework_entry_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

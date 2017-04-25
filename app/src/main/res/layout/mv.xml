@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:background="#ffeeeeee" android:paddingTop="@dimen/gn" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ak8" android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:src="@drawable/aat" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/hg" android:id="@id/ak9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gn" android:text="@string/akh" android:layout_below="@id/ak8" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/ak_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj" android:text="" android:layout_below="@id/ak9" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/akn" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.mm.ui.base.MaxListView android:id="@id/s7" android:background="@color/f5" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="@dimen/hh" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/io" android:id="@id/akb" android:paddingLeft="@dimen/gr" android:paddingRight="@dimen/gr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gs" android:maxLines="4" android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

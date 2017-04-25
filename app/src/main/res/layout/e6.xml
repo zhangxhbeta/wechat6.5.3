@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/cm" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/vr" android:background="@drawable/c7" android:padding="0.0dip" android:layout_width="335.0dip" android:layout_height="332.0dip" android:layout_centerInParent="true">
+        <ImageView android:background="@drawable/abh" android:layout_width="fill_parent" android:layout_height="105.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/vs" android:background="@drawable/aih" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" />'
+<TextView android:textSize="14.0sp" android:textColor="@color/r0" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/vt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxWidth="200.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/vs" android:layout_centerHorizontal="true" android:alpha="0.6" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/r0" android:ellipsize="end" android:gravity="center" android:id="@id/vu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="15.299988dip" android:layout_marginRight="40.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/vt" android:layout_centerHorizontal="true" android:alpha="0.8" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff494317" android:ellipsize="end" android:gravity="center" android:id="@id/vv" android:background="@drawable/abi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:singleLine="true" android:layout_below="@id/vu" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/vw" android:paddingLeft="17.0dip" android:paddingTop="17.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abk" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

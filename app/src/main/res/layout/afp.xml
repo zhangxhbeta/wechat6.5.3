@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/cun" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gm" android:layout_marginTop="@dimen/i6" android:layout_marginRight="@dimen/gm" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center" android:background="@drawable/ap0" android:layout_width="51.0dip" android:layout_height="56.0dip" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="center" android:layout_gravity="center" android:id="@id/cuo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:text="@string/d_z" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/di" android:textColor="#ff02bb00" android:id="@id/cl9" android:paddingLeft="@dimen/hj" android:paddingRight="@dimen/hj" android:layout_width="wrap_content" android:layout_height="@dimen/gx" android:layout_marginBottom="110.0dip" android:text="@string/d_y" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/MMlineGreenLargeButton" />
+        <TextView android:textSize="@dimen/hg" android:textColor="#ff586187" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/cup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/da1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

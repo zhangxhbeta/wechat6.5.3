@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/fy" android:id="@id/aq0" android:paddingLeft="@dimen/ey" android:paddingTop="@dimen/ey" android:paddingRight="@dimen/ey" android:paddingBottom="@dimen/hf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mm.plugin.favorite.ui.base.FavTagPanel android:id="@id/aq1" android:paddingBottom="@dimen/ey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ey" android:layout_marginRight="@dimen/ey" flowlayout:horizontalSpacing="@dimen/ey" flowlayout:verticalSpacing="@dimen/ey" />
+</LinearLayout>

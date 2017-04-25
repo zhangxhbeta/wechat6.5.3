@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/lr" android:background="@color/db" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="none" android:id="@id/ajr" android:padding="10.0dip" android:visibility="gone" android:singleLine="false" style="@style/MMFontEmptyMsgLarge" />
+    <com.tencent.mm.ui.base.MMPullDownView android:id="@id/c0w" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/c0x" android:background="@null" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ic" android:transcriptMode="alwaysScroll" android:cacheColorHint="#00000000" android:divider="@null" />
+    </com.tencent.mm.ui.base.MMPullDownView>
+</LinearLayout>

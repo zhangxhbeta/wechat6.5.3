@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/FreeWifiSuccBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/xp" style="@style/FreeWifiIconIV" />
+    <TextView android:text="@string/awh" style="@style/FreeWifiSuccTipsTV" />
+    <LinearLayout android:id="@id/atb" android:layout_marginTop="@dimen/f3" style="@style/FreeWifiSuccParentItem">
+        <RelativeLayout android:id="@id/atc" style="@style/FreeWifiSuccDetailItem">
+            <TextView android:id="@id/atd" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" style="@style/FreeWifiSuccFollowTips" />
+            <CheckBox android:id="@id/ate" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="false" android:text="@string/awv" android:layout_alignParentRight="true" style="@style/MMTextCheckBox" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/atf" style="@style/FreeWifiSuccParentItem">
+        <LinearLayout android:background="@null" style="@style/FreeWifiSuccAppDescItem">
+            <TextView android:id="@id/atg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FreeWifiSuccFollowDesc" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ath" android:visibility="gone" android:layout_marginTop="@dimen/f3" style="@style/FreeWifiSuccProfileItem">
+        <TextView android:id="@id/ati" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" style="@style/FreeWifiSuccFollowTips" />
+        <TextView android:id="@id/atj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/axk" android:layout_alignParentRight="true" style="@style/FreeWifiSuccProfileTips" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_marginTop="@dimen/f1" style="@style/MMLine">
+        <Button android:id="@id/atk" android:text="@string/awt" style="@style/FreeWifiWatingConnectBtn" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/atl" android:visibility="gone" android:layout_height="20.0dip" android:layout_marginBottom="0.0dip" android:text="查看更多三星服务" android:layout_alignParentBottom="true" style="@style/FreeWifiUseWithAgeementBtn" />
+    </RelativeLayout>
+</LinearLayout>

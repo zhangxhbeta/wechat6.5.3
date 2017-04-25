@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.base.DrawedCallBackFrameLayout android:id="@id/lb" android:background="@color/ac" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="center" android:id="@id/c6q" android:background="@null" android:paddingTop="@dimen/hh" android:paddingBottom="@dimen/hh" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/i9" android:listSelector="@drawable/iw" android:cacheColorHint="#00000000" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:divider="@null" android:dividerHeight="0.0px" android:overScrollMode="never" />
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/rb" android:gravity="center|left" android:id="@id/b2t" android:background="@color/hn" android:paddingLeft="@dimen/i_" android:paddingTop="@dimen/id" android:paddingRight="@dimen/i_" android:paddingBottom="@dimen/id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/c6r" android:background="@color/x" android:layout_width="fill_parent" android:layout_height="@dimen/i9">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c6s" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/se" android:id="@id/c6t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayd" />
+            <ImageView android:background="@null" android:paddingTop="@dimen/i_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bv" android:src="@drawable/ob" />
+        </LinearLayout>
+        <View android:id="@id/c6u" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:id="@id/c6v" android:background="@color/g8" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:enabled="false" android:textSize="@dimen/hg" android:textColor="@color/se" android:gravity="center" android:id="@id/c6w" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="64.0dip" android:text="@string/ayp" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.gallery.ui.ImageFolderMgrView android:id="@id/c6x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/i9" />
+</com.tencent.mm.ui.base.DrawedCallBackFrameLayout>

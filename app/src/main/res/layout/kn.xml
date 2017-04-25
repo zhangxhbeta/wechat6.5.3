@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/aew" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/bs" android:layout_gravity="left" android:id="@id/aex" android:background="@drawable/o6" android:padding="16.0dip" android:text="@string/dkw" style="@style/MMSmallButton" />
+        </LinearLayout>
+        <ImageView android:id="@id/aey" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/bc" android:gravity="center" android:id="@id/aez" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/mi" android:gravity="center_horizontal" android:id="@id/af0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="24.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:ellipsize="end" android:id="@id/af1" android:layout_marginBottom="40.0dip" android:singleLine="true" android:layout_above="@id/af2" android:layout_alignParentLeft="true" style="@style/MMlineGreenMiddleButton" />
+                <TextView android:textColor="@color/cc" android:gravity="center" android:id="@id/af2" android:background="@drawable/o6" android:text="@string/dl1" android:layout_centerHorizontal="true" style="@style/MMMiddleButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

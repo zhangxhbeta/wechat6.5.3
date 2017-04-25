@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bqp" android:background="@drawable/im" android:layout_width="fill_parent" android:layout_height="@dimen/gv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bqq" android:background="@drawable/a7e" android:visibility="gone" android:layout_width="@dimen/hd" android:layout_height="@dimen/hd" android:layout_marginLeft="@dimen/i_" android:layout_marginTop="@dimen/i_" android:layout_marginRight="@dimen/i_" android:layout_marginBottom="@dimen/i_" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/gv" android:layout_marginLeft="@dimen/hf" android:layout_marginTop="@dimen/i_" android:layout_marginBottom="@dimen/i_" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:id="@id/bqr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item title]" android:singleLine="true" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:id="@id/br3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item price]" android:singleLine="true" />
+        <TextView android:textSize="@dimen/ic" android:textColor="@color/im" android:id="@id/br4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item desc]" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/br5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hf" android:src="@raw/round_selector_checked" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/h1" android:background="@drawable/n2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ceq" android:background="@drawable/mw" android:layout_width="96.0dip" android:layout_height="@dimen/sh">
+        <ImageView android:id="@id/cer" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:id="@id/ces" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/cqc" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/g8" android:background="@color/a3" android:layout_width="@dimen/dm" android:layout_height="@dimen/gm" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cev" android:background="@drawable/mx" android:layout_width="96.0dip" android:layout_height="@dimen/sh">
+        <ImageView android:id="@id/ceu" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fv" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:id="@id/cex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/co9" />
+    </LinearLayout>
+</LinearLayout>

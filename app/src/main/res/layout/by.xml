@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/m3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="7.0dip">
+                <ImageView android:id="@id/m4" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+                <View android:layout_width="10.0dip" style="@style/MMSplit" />
+                <Button android:textSize="14.0dip" android:id="@id/m5" android:background="@drawable/gb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:minWidth="60.0dip" android:minHeight="30.0dip" android:text="@string/b0f" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_toLeftOf="@id/m5" android:layout_toRightOf="@id/m4" android:layout_alignTop="@id/m4" android:layout_alignBottom="@id/m4">
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/m6" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontPreferenceProfile" />
+                    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/m7" android:layout_marginBottom="10.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_below="@id/m6" style="@style/MMFontPreferenceSmall" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/m8" android:background="@drawable/e3" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:layout_marginRight="@dimen/i_">
+            <LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minHeight="@dimen/i9" android:layout_weight="1.0">
+                <TextView android:id="@android:id/summary" android:text="@string/az_" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/m9" android:background="@drawable/ig" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/m_" android:background="@drawable/e3" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:layout_marginRight="@dimen/i_">
+            <LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minHeight="@dimen/i9" android:layout_weight="1.0">
+                <TextView android:id="@android:id/summary" android:text="@string/b1f" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/ma" android:background="@drawable/ig" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/gj">
+            <TextView android:textColor="#ff454545" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/azj" style="@style/MMFontPreferenceLarge" />
+            <com.tencent.mm.plugin.game.ui.AuthorizationInfoLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/mb" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="@dimen/gj" android:paddingTop="20.0dip" android:paddingRight="@dimen/gj" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/mc" android:text="@string/azw" style="@style/MMSolidRedLargeButton" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

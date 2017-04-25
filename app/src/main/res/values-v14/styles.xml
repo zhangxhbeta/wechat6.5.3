@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a0" parent="@style/xc" />
+    <style name="a1" parent="@style/xd" />
+    <style name="a5" parent="@style/ar">
+        <item name="android:textSize">@dimen/kp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="a6" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="a7" parent="@style/a6" />
+    <style name="a8" parent="@style/a6">
+        <item name="android:textSize">@dimen/rj</item>
+    </style>
+    <style name="a9" parent="@style/a6" />
+    <style name="a_" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="xc" parent="@style/x9">
+        <item name="android:actionModeSelectAllDrawable">?bq</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/kh</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/kh</item>
+    </style>
+    <style name="xd" parent="@style/x_">
+        <item name="android:actionModeSelectAllDrawable">?bq</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/kh</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/kh</item>
+    </style>
+</resources>

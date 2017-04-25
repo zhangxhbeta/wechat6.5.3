@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/hn" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/MMList" />
+    <TextView android:textColor="@color/l4" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/ho" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFontEmptyMsgLarge" />
+    <RelativeLayout android:id="@id/a0q" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

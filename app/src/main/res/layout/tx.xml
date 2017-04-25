@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <RelativeLayout android:id="@id/anl" style="@style/MMBody">
+            <ImageView android:id="@id/anm" android:layout_width="@dimen/bw" android:layout_height="@dimen/bw" android:layout_marginRight="@dimen/gj" android:src="@drawable/wg" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/m6" />
+            <TextView android:id="@id/ann" android:layout_toRightOf="@id/anm" style="@style/MMFontPreferenceLarge" />
+            <TextView android:id="@id/b3v" android:layout_toRightOf="@id/anm" android:layout_below="@id/ann" style="@style/MMFontPreferenceSmall" />
+            <TextView android:textSize="@dimen/hg" android:textColor="#ff707070" android:gravity="center" android:id="@id/ano" android:background="@drawable/zg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i_" android:layout_below="@id/anm" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:minHeight="@dimen/ha" android:layout_below="@id/ano">
+                <Button android:id="@id/anp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/b64" android:layout_weight="1.0" style="@style/MMSolidGreenLargeButton" />
+                <View android:id="@id/b3w" android:layout_width="@dimen/i_" android:layout_height="fill_parent" />
+                <Button android:id="@id/b3x" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/b67" android:layout_weight="1.0" style="@style/MMSolidWhiteLargeButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

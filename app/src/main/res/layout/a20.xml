@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lb" android:background="@drawable/af4" android:padding="@dimen/bv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:orientation="horizontal" android:id="@id/bqm" android:focusableInTouchMode="true" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/bqn" android:layout_width="wrap_content" android:layout_height="@dimen/d0" />
+    </HorizontalScrollView>
+    <ImageView android:id="@id/aek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/searchbar_icon" />
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/hg" android:textColor="@color/l4" android:textColorHint="@color/hv" android:gravity="center_vertical" android:id="@id/ael" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bv" android:minHeight="@dimen/ge" android:hint="@string/kq" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

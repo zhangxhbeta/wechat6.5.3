@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/uq" android:background="@color/ni" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/ur" android:visibility="gone" layout="@layout/card_share_users_info_header_layout" />
+        <include android:id="@id/us" android:visibility="gone" layout="@layout/from_username_layout" />
+        <include android:id="@id/ut" android:visibility="gone" layout="@layout/card_accept_header_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/uu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:layout_marginRight="@dimen/i_" android:layout_marginBottom="@dimen/i_">
+            <LinearLayout android:orientation="vertical" android:id="@id/uv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/uw" android:background="@drawable/ac9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/ux" android:layout="@layout/dp" android:inflatedId="@id/uy" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/uz" android:layout="@layout/f_" android:inflatedId="@id/uz" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v0" android:layout="@layout/do" android:inflatedId="@id/v0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v1" android:layout="@layout/dr" android:inflatedId="@id/v1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v2" android:layout="@layout/et" android:inflatedId="@id/v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v3" android:layout="@layout/ex" android:inflatedId="@id/v3" android:layout_width="fill_parent" android:layout_height="78.599976dip" />
+                <ViewStub android:id="@id/v4" android:layout="@layout/ep" android:inflatedId="@id/v4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v5" android:layout="@layout/e1" android:inflatedId="@id/v5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v6" android:layout="@layout/e2" android:inflatedId="@id/v6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v7" android:visibility="gone" android:layout="@layout/dv" android:inflatedId="@id/v7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v8" android:visibility="gone" android:layout="@layout/du" android:inflatedId="@id/v8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/v9" android:visibility="gone" android:layout="@layout/dw" android:inflatedId="@id/v9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/v_" android:background="@drawable/e_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/c4" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/c4" android:layerType="software" />
+                <ViewStub android:id="@id/va" android:layout="@layout/fb" android:inflatedId="@id/va" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i1" />
+                <com.tencent.mm.ui.base.MaxListView android:id="@id/vb" android:background="@null" android:focusable="true" android:layout_height="wrap_content" android:transcriptMode="disabled" style="@style/CardMMList" />
+            </LinearLayout>
+            <TextView android:id="@id/vc" android:background="@drawable/ac8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/gj" android:layerType="software" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/vd" android:paddingTop="@dimen/gj" android:paddingBottom="@dimen/gj" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/hf" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:gravity="center_horizontal" android:id="@id/ve" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vf" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/su" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abx" />
+                    <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:gravity="center_horizontal" android:id="@id/sv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gs" android:text="@string/z7" />
+                    <Button android:textSize="@dimen/ic" android:textColor="@color/se" android:gravity="center" android:id="@id/sw" android:background="@drawable/c8" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="@dimen/hf" android:minWidth="50.0dip" android:text="@string/yu" />
+                </LinearLayout>
+                <View android:id="@id/vg" android:background="@color/r0" android:visibility="gone" android:layout_width="1.0px" android:layout_height="60.0dip" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/vh" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ac0" />
+                    <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:layout_marginTop="@dimen/i_" android:layout_marginRight="@dimen/i_" android:text="@string/yn" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:ellipsize="middle" android:gravity="center_horizontal" android:id="@id/vi" android:paddingTop="@dimen/h0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

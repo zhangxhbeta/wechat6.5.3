@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" style="@style/WalletBody">
+        <TextView android:textColor="@color/hb" android:id="@id/cqj" android:layout_marginBottom="@dimen/bz" android:text="@string/dey" style="@style/WalletElementTips" />
+        <LinearLayout style="@style/WalletMultiFormStyle">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:gravity="center|right" android:id="@id/csi" android:clickable="false" wallet:titleText="@string/df0" wallet:contentHint="@string/df1" wallet:contentTextColor="@color/hy" wallet:contentFocusable="false" style="@style/RealnameWalletNameStyle" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/buj" android:minHeight="45.0dip" wallet:titleText="@string/dew" wallet:contentHint="@string/dez" style="@style/WalletIdentityCardStyle" />
+        </LinearLayout>
+        <Button android:id="@id/a_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ji" style="@style/WalletLineButton" />
+        <LinearLayout android:orientation="horizontal" android:layout_marginTop="8.0dip" android:layout_marginBottom="38.0dip" style="@style/MMLine">
+            <CheckBox android:textSize="@dimen/gc" android:textColor="@color/bb" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/ctj" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iq" android:checked="true" android:minHeight="22.0dip" android:text="@string/d8g" style="@style/MMTextCheckBox" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/sd" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/cx6" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:text="@string/d8f" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:layout_gravity="bottom" android:id="@id/bup" android:paddingTop="5.0dip" android:layout_height="fill_parent" android:layout_margin="0.0dip" style="@style/WalletPowerByTenpayTips" />
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tenpay_keyboard_layot" />
+</RelativeLayout>

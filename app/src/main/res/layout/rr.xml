@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameIndexGroup android:id="@id/ays" android:background="@drawable/lw" android:padding="@dimen/c4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/gb" android:id="@id/f7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:ellipsize="end" android:id="@id/ayt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h0" android:singleLine="true" />
+            <TextView android:textSize="@dimen/g8" android:textColor="@color/gi" android:ellipsize="end" android:id="@id/ayu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/az1" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:scaleType="fitXY" />
+    </com.tencent.mm.plugin.game.ui.GameIndexGroup>
+    <ImageView android:layout_gravity="center" android:id="@id/avd" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@color/gm" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="n">64.0dip</dimen>
+    <dimen name="p">16.0dip</dimen>
+    <dimen name="q">20.0dip</dimen>
+    <dimen name="s">580.0dip</dimen>
+    <dimen name="a_">24.0dip</dimen>
+    <dimen name="aa">8.0dip</dimen>
+    <dimen name="ab">8.0dip</dimen>
+    <dimen name="ac">320.0dip</dimen>
+    <dimen name="ad">0.0dip</dimen>
+    <dimen name="ae">2.0dip</dimen>
+    <dimen name="af">24.0dip</dimen>
+    <dimen name="ag">576.0dip</dimen>
+    <dimen name="ah">320.0dip</dimen>
+    <item type="dimen" name="ai">@dimen/o1</item>
+    <dimen name="aj">160.0dip</dimen>
+</resources>

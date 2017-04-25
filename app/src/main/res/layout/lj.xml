@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/agh" android:background="@color/r0" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/of"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/og" android:layout_height="@dimen/of">
+        <ImageView android:id="@id/agi" android:padding="@dimen/hf" android:layout_width="@dimen/og" android:layout_height="@dimen/og" android:scaleType="fitXY" />
+        <TextView android:textStyle="bold" android:textColor="@color/r0" android:id="@id/aia" android:background="@drawable/jo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bv" android:text="@string/jh" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/agt" android:paddingLeft="@dimen/i_" android:paddingTop="@dimen/hf" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="@dimen/og" android:layout_height="wrap_content" android:max="100" android:progress="0" android:layout_below="@id/agi" style="@style/MMEmojiDownloadProgressHorizontal" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/og" android:layout_height="@dimen/oe" android:layout_below="@id/agi">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/agj" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="0.0dip" android:layout_height="@dimen/oe" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/ic" android:ellipsize="end" android:id="@id/agl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="{xxxxxx}" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+                <TextView android:textSize="@dimen/im" android:textColor="@color/hy" android:ellipsize="end" android:id="@id/agm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{Y6.00}" android:singleLine="true" />
+                <TextView android:id="@id/agn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMFontTipInList" />
+            </LinearLayout>
+            <FrameLayout android:gravity="center" android:id="@id/agk" android:layout_width="wrap_content" android:layout_height="@dimen/oe">
+                <LinearLayout android:orientation="vertical" android:id="@id/ago" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/im" android:gravity="center" android:id="@id/agp" android:background="@drawable/emoji_download_item" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shadowRadius="1.2" />
+                </LinearLayout>
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/agq" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emoji_download_item" />
+                <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/agr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aib" android:background="@drawable/emoji_grid_item_fg" android:layout_width="@dimen/og" android:layout_height="@dimen/of" />
+</FrameLayout>

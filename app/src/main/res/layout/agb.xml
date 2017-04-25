@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WalletBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/h0" android:text="@string/dev" style="@style/WalletElementTips" />
+    <LinearLayout android:orientation="vertical" android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/cx7" android:paddingTop="@dimen/gj" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/c0" android:textColor="@color/l4" android:id="@id/cx8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/cx9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cx8" android:layout_alignLeft="@id/cx8" />
+        </RelativeLayout>
+        <View android:id="@id/cx_" android:background="@color/ir" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/gr" android:layout_alignParentBottom="false" />
+        <RelativeLayout android:id="@id/cxa" android:paddingTop="@dimen/gj" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/c0" android:textColor="@color/l4" android:id="@id/cxb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/cxc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cxb" android:layout_alignLeft="@id/cxb" />
+        </RelativeLayout>
+        <View android:id="@id/cxd" android:background="@color/ir" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/gr" android:layout_alignParentBottom="false" />
+        <RelativeLayout android:id="@id/cxe" android:paddingTop="@dimen/gj" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/c0" android:textColor="@color/l4" android:id="@id/cxf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/cxg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cxf" android:layout_alignLeft="@id/cxf" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/cxh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h0" android:layout_marginTop="@dimen/h0" android:layout_below="@id/cxf" android:layout_alignLeft="@id/cxf" />
+</LinearLayout>

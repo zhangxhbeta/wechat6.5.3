@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/a3i" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/aac" android:key="contact_info_readerappweibo_view" android:layout="@layout/z1" />
+    <Preference android:title="@string/a88" android:key="contact_info_readerappweibo_clear_data" android:layout="@layout/z1" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cgk" android:key="contact_info_readerappweibo_install" android:layout="@layout/tv" />
+    <Preference android:title="@string/cgq" android:key="contact_info_readerappweibo_uninstall" android:layout="@layout/vr" />
+    <PreferenceCategory />
+</PreferenceScreen>

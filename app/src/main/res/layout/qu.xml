@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameIndexBannerView android:orientation="vertical" android:id="@id/ave" android:background="@drawable/lw" android:padding="@dimen/c4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/gy" android:id="@id/f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/ah" android:background="@color/g_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </com.tencent.mm.plugin.game.ui.GameIndexBannerView>
+    <ImageView android:layout_gravity="center" android:id="@id/avd" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@color/gm" />
+</LinearLayout>

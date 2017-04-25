@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ue" layout="@layout/card_widget_ticket_body" />
+    <View android:id="@id/uf" android:background="@drawable/e_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/c4" android:layout_marginRight="@dimen/c4" android:layout_marginBottom="0.0dip" android:layout_alignBottom="@id/ue" android:layerType="software" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/auh" style="@style/FTSListBigItem">
+        <com.tencent.mm.ui.MMImageView android:id="@id/mu" android:layout_width="@dimen/eg" android:layout_height="@dimen/ef" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:ellipsize="end" android:id="@id/lf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="{title}" />
+                <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:ellipsize="end" android:id="@id/auy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="{abstract}" android:layout_below="@id/lf" />
+            </RelativeLayout>
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/auz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="{status}" android:singleLine="true" style="@style/MMFontTipInList" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

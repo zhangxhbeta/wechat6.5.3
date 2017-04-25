@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameSignGiftView android:background="@drawable/lw" android:paddingTop="@dimen/c4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/gy" android:id="@id/f7" android:paddingLeft="@dimen/c4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/ie" android:textColor="@color/gj" android:gravity="center_vertical" android:id="@id/ayi" android:paddingRight="@dimen/c4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <HorizontalScrollView android:id="@id/b0t" android:paddingLeft="@dimen/c4" android:paddingRight="@dimen/c4" android:paddingBottom="@dimen/c4" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h0" android:fillViewport="false" android:layout_below="@id/f7" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:id="@id/b0u" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <ImageView android:id="@id/avd" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@color/gm" android:layout_below="@id/b0t" />
+    <ImageView android:id="@id/b0v" android:layout_width="90.0dip" android:layout_height="fill_parent" android:src="@drawable/ye" android:scaleType="fitXY" android:layout_above="@id/avd" android:layout_below="@id/f7" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/b0w" android:layout_width="90.0dip" android:layout_height="fill_parent" android:src="@drawable/yf" android:scaleType="fitXY" android:layout_above="@id/avd" android:layout_below="@id/f7" android:layout_alignParentRight="true" />
+</com.tencent.mm.plugin.game.ui.GameSignGiftView>

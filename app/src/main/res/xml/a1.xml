@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference android:key="contact_info_header_normal" android:layout="@layout/jb" />
+    <Preference android:title="@string/a_r" android:key="contact_info_qcontact_sex" android:layout="@layout/z1" />
+    <Preference android:title="@string/a_p" android:key="contact_info_qcontact_age" android:layout="@layout/z1" />
+    <Preference android:title="@string/a_q" android:key="contact_info_qcontact_birthday" android:layout="@layout/z1" />
+    <Preference android:title="@string/a_o" android:key="contact_info_qcontact_address" android:layout="@layout/z1" />
+</PreferenceScreen>

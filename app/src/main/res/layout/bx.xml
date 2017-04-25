@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/dv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="center_horizontal" android:id="@id/lt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/lu" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/lv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+            <ImageView android:id="@id/lw" android:background="@drawable/kj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rq" />
+            <ImageView android:id="@id/lx" android:background="@drawable/wr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8.0dip" />
+        </LinearLayout>
+        <TextView android:textColor="@color/r0" android:layout_gravity="center_horizontal" android:id="@id/ly" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/lz" android:visibility="visible" android:layout_width="220.0dip" android:text="@string/bfb" style="@style/MMSolidGreenLargeButton" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/m0" android:visibility="gone" android:layout_width="220.0dip" android:text="@string/bf8" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip">
+        <TextView android:textSize="@dimen/gc" android:textColor="#ff777777" android:gravity="center_horizontal" android:id="@id/m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bf9" />
+        <TextView android:textSize="@dimen/gc" android:textColor="#ff4b8ee1" android:id="@id/m2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

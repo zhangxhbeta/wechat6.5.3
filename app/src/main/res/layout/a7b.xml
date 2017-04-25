@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.widget.FoursquareRelativeLayout android:id="@id/c4n" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c6y" android:background="@color/ld" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+    <ImageView android:id="@id/a0m" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/b3k" android:background="@drawable/af0" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/c6z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f0" android:src="@raw/app_attach_file_icon_video_in_gird" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/r1" android:id="@id/c70" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="--:--" android:maxLines="1" android:layout_toRightOf="@id/c6z" android:layout_alignBaseline="@id/c6z" />
+    </RelativeLayout>
+    <ImageView android:id="@id/c71" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aez" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/c72" android:background="@drawable/go" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/b2c" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <CheckBox android:id="@id/b2b" android:background="@drawable/if" android:focusable="false" android:clickable="false" android:layout_width="@dimen/cx" android:layout_height="20.0dip" android:layout_marginTop="@dimen/gs" android:layout_marginRight="@dimen/gs" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</com.tencent.mm.ui.widget.FoursquareRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/agh" android:background="@color/r0" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/of"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/agi" android:padding="@dimen/hf" android:layout_width="@dimen/og" android:layout_height="@dimen/og" android:scaleType="fitXY" />
+    <ImageView android:id="@id/aib" android:background="@drawable/emoji_grid_item_fg" android:layout_width="@dimen/og" android:layout_height="@dimen/og" />
+    <TextView android:textSize="@dimen/ic" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aih" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="@dimen/oe" android:maxWidth="@dimen/og" android:layout_below="@id/agi" android:layout_centerHorizontal="true" style="@style/MMFontTitleInList" />
+</RelativeLayout>

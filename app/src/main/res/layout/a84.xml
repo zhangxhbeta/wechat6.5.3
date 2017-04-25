@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ln" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_height="wrap_content" android:minHeight="@dimen/gv" style="@style/MMListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MaskLayout android:id="@id/c8g" android:layout_width="@dimen/i3" android:layout_height="@dimen/i3">
+        <ImageView android:id="@id/hz" android:layout_width="@dimen/i2" android:layout_height="@dimen/i2" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+    </com.tencent.mm.ui.base.MaskLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/c8h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ib" android:text="{nick}" android:singleLine="true" style="@style/MMFontTitleInList" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/mp" android:ellipsize="end" android:gravity="center|left" android:id="@id/c8i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ib" android:singleLine="true" style="@style/MMFontTitleInList" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/adq" android:background="@drawable/e3" android:layout_width="fill_parent" android:layout_height="@dimen/he" android:baselineAligned="false" android:minHeight="@dimen/he"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/h_" android:layout_height="@dimen/h_" android:layout_marginLeft="@dimen/i_" android:layout_marginRight="@dimen/ib">
+        <ImageView android:id="@id/mu" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+        <TextView android:id="@id/i0" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UnreadCountTipsStyle" />
+        <ImageView android:id="@id/adr" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UnreadDotStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i_">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id">
+            <com.tencent.mm.ui.tools.MMTruncTextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:id="@id/ads" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:gravity="center|right" android:id="@id/adt" android:layout_width="100.0dip" android:layout_height="wrap_content" style="@style/MMFontTimeInList" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingBottom="@dimen/i_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/id">
+            <com.tencent.mm.ui.tools.MMTruncTextView android:textSize="14.0dip" android:textColor="#ff888888" android:ellipsize="end" android:gravity="center|left" android:id="@id/adu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{lastmsg}" android:layout_weight="1.0" style="@style/MMFontTipInList" />
+            <LinearLayout android:gravity="bottom|center|right" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <ImageView android:gravity="right" android:layout_gravity="center|right" android:id="@id/c7c" android:paddingRight="@dimen/ib" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vf" />
+                <ImageView android:gravity="right" android:layout_gravity="center|right" android:id="@id/adw" android:paddingRight="@dimen/ib" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chat_mute_notify_normal" />
+                <ImageView android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/adx" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@raw/talk_room_mic_idle" android:contentDescription="@string/e5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

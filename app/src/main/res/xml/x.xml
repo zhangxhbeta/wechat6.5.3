@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/ja" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/a9n" android:key="contact_info_linkedin_account" android:widgetLayout="@layout/a0t" android:layout="@layout/z1" />
+    <Preference android:title="@string/arr" android:key="contact_info_linkedin_add_friend" android:widgetLayout="@layout/a0t" android:layout="@layout/z1" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cgk" android:key="contact_info_linkedin_install" android:widgetLayout="@layout/a0t" android:layout="@layout/tv" />
+    <Preference android:title="@string/cgq" android:key="contact_info_linkedin_uninstall" android:layout="@layout/vr" />
+    <PreferenceCategory />
+</PreferenceScreen>

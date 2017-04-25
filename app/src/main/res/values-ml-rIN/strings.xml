@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">ഹോമിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">മുകളിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="abc_action_menu_overflow_description">കൂടുതല്‍ ഓപ്‌ഷനുകള്‍</string>
+    <string name="j">പൂർത്തിയാക്കി</string>
+    <string name="k">എല്ലാം കാണുക</string>
+    <string name="l">ഒരു അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="m">ഓഫ്</string>
+    <string name="n">ഓൺ</string>
+    <string name="o">തിരയുക…</string>
+    <string name="p">അന്വേഷണം മായ്‌ക്കുക</string>
+    <string name="q">തിരയൽ അന്വേഷണം</string>
+    <string name="r">തിരയൽ</string>
+    <string name="s">അന്വേഷണം സമർപ്പിക്കുക</string>
+    <string name="t">ശബ്ദ തിരയൽ</string>
+    <string name="u">ഇവരുമായി പങ്കിടുക</string>
+    <string name="v">ചുരുക്കുക</string>
+    <string name="w">999+</string>
+    <string name="x">%s എന്നതുമായി പങ്കിടുക</string>
+</resources>

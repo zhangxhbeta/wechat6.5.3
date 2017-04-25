@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="pz">#19000000</item>
+    <item type="drawable" name="q0">#19ffffff</item>
+    <item type="drawable" name="q1">#ffeeeeee</item>
+    <item type="drawable" name="q2">#fff3f3f3</item>
+    <item type="drawable" name="q3">@color/gv</item>
+    <item type="drawable" name="q4">@color/r0</item>
+    <item type="drawable" name="q5">#fff5f5f5</item>
+    <item type="drawable" name="q6">#3333b5e5</item>
+    <item type="drawable" name="q7">#bf000000</item>
+    <item type="drawable" name="q8">#00000000</item>
+    <item type="drawable" name="q9">#ffc7c7c7</item>
+    <item type="drawable" name="q_">#ffffffff</item>
+    <item type="drawable" name="APKTOOL_DUMMY_a0">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_75b">false</item>
+</resources>

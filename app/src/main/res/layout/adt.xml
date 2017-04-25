@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cne" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <com.tencent.mm.pluginsdk.ui.VoiceInputScrollView android:layout_gravity="center" android:id="@id/cnf" android:background="@null" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="18.0dip" android:fillViewport="true" android:fadeScrollbars="false">
+            <FrameLayout android:id="@id/cng" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/t6" android:textColor="@color/l4" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/cnh" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cursorVisible="true" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" />
+                <ImageView android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/cni" android:paddingTop="10.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+            </FrameLayout>
+        </com.tencent.mm.pluginsdk.ui.VoiceInputScrollView>
+        <TextView android:textSize="13.0dip" android:textColor="@color/l1" android:id="@id/cnj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bv" android:text="@string/ve" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cnk" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="15.0dip" android:weightSum="4.0" android:layout_weight="2.0">
+        <Button android:textSize="16.0dip" android:textColor="@color/cc" android:gravity="center" android:layout_gravity="center" android:id="@id/cnl" android:background="@drawable/o6" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/h0" android:layout_weight="1.0" />
+        <com.tencent.mm.pluginsdk.ui.VoiceInputLayoutImpl android:layout_gravity="center" android:id="@id/cnm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+        <Button android:textSize="16.0dip" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center" android:id="@id/cnn" android:background="@drawable/o6" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/d0h" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

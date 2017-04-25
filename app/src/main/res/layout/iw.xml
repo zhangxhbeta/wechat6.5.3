@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gj">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/aa5" android:layout_width="@dimen/dg" android:layout_height="@dimen/dg" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/n8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomProgressBar" />
+        </FrameLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.mm.ui.base.PasterEditText android:textSize="@dimen/hg" android:textColor="@color/io" android:ellipsize="end" android:id="@id/aa6" android:background="@drawable/eq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:layout_marginTop="0.0dip" android:maxLines="3" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

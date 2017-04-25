@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MMTextureView android:layout_gravity="center" android:id="@id/c61" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/c62" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/c65" android:background="@drawable/a3z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/c63" android:background="#bb000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="center" android:id="@id/c64" android:visibility="gone" android:text="@string/c8q" style="@style/ScanNoNetWorkTips" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/c6_" android:background="@drawable/zn" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:id="@id/c6a" android:focusable="true" android:visibility="visible" android:text="@string/e7" style="@style/MMSolidGreenSmallButton" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/ie" android:textColor="@android:color/black" android:id="@id/c6b" android:background="@drawable/kt" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.tencent.mm.plugin.scanner.ui.SelectScanModePanel android:id="@id/c66" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/c67" android:background="@color/x" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/c6c" android:background="@null" android:visibility="invisible" android:clickable="true" style="@style/MMTitleButton">
+                <TextView android:textColor="@color/s2" android:gravity="center" android:id="@id/c6d" android:background="@drawable/iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <Button android:id="@id/c68" android:visibility="gone" android:layout_margin="2.0dip" android:text="@string/bvh" style="@style/MMSolidGreenSmallButton" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/c69" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/zi" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/c6e" android:background="@drawable/abb" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="33.0dip" android:layout_marginTop="18.0dip" />
+</FrameLayout>

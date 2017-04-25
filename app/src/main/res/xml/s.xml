@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/ja" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/a8x" android:key="contact_info_plugin_view" android:layout="@layout/z1" />
+    <Preference android:title="@string/a8u" android:key="contact_info_plugin_outsize" android:layout="@layout/z1" />
+    <Preference android:title="@string/a8t" android:key="contact_info_plugin_black" android:layout="@layout/z1" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cgk" android:key="contact_info_plugin_install" android:layout="@layout/tv" />
+    <Preference android:title="@string/cgq" android:key="contact_info_plugin_uninstall" android:layout="@layout/vr" />
+    <PreferenceCategory />
+</PreferenceScreen>

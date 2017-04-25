@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/kv" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="@color/ni" android:layout_width="fill_parent" android:layout_height="@dimen/i1" />
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/cg" android:ellipsize="end" android:gravity="left" android:id="@id/um" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/gj" android:singleLine="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/un" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/h0" android:layout_marginRight="@dimen/gj" />
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/ce" android:ellipsize="end" android:gravity="left" android:id="@id/uo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/c4" android:layout_marginRight="@dimen/gj" android:text="@string/xc" android:singleLine="true" />
+    <View android:id="@id/uf" android:background="@drawable/e_" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/gj" android:layout_marginBottom="0.0dip" android:layerType="software" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wj" android:background="@color/po" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/vx" android:background="@color/bb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/wk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/wl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/c0" android:textColor="#ccf2f2f2" android:id="@id/wm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/wn" android:visibility="gone" android:layout_width="@dimen/rm" android:layout_height="@dimen/rm" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/wo" android:background="@drawable/a_9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/wp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/mediumCustomProgressBar" />
+            <TextView android:textColor="@color/mh" android:id="@id/wq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

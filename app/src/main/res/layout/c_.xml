@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/my" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/a9k" android:scaleType="centerInside" />
+    <TextView android:textSize="30.0dip" android:textColor="@color/l4" android:gravity="center" android:id="@id/n2" android:paddingLeft="@dimen/c4" android:paddingRight="@dimen/c4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/qe" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff999999" android:id="@id/n3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="86M/1024M" />
+    <ProgressBar android:id="@id/n4" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:max="100" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+    <Button android:id="@id/n0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/dp" android:text="@string/no" style="@style/MMSolidGreenLargeButton" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ff999999" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/n5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/q6" />
+    </LinearLayout>
+</LinearLayout>

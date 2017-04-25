@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/g7" android:paddingTop="@dimen/k6" android:paddingBottom="@dimen/k6" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@null" android:divider="?bz" android:overScrollMode="ifContentScrolls" style="@style/Widget.AppCompat.ListView"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

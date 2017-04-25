@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">Navigate home</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="j">Done</string>
+    <string name="k">See all</string>
+    <string name="l">Choose an app</string>
+    <string name="m">OFF</string>
+    <string name="n">ON</string>
+    <string name="o">Search…</string>
+    <string name="p">Clear query</string>
+    <string name="q">Search query</string>
+    <string name="r">Search</string>
+    <string name="s">Submit query</string>
+    <string name="t">Voice search</string>
+    <string name="u">Share with</string>
+    <string name="v">Collapse</string>
+    <string name="w">999+</string>
+    <string name="x">Share with %s</string>
+</resources>

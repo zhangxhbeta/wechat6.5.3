@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="60.0dip" style="@style/MMFullLineItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/hw" android:background="@drawable/e3" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/ak6" android:paddingRight="@dimen/hf" android:layout_width="@dimen/sm" android:layout_height="@dimen/sm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/bp_" android:paddingLeft="@dimen/hf" android:layout_width="wrap_content" android:layout_height="@dimen/sm" android:src="@raw/drag_sort_icon" android:maxHeight="@dimen/sm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/bpa" android:visibility="gone" android:layout_width="@dimen/ik" android:layout_height="wrap_content" android:layout_toLeftOf="@id/bp_" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ak5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/bpa" android:layout_toRightOf="@id/ak6" android:layout_centerVertical="true" style="@style/MMFontTitleInList" />
+    </RelativeLayout>
+</LinearLayout>

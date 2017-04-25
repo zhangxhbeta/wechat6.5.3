@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bt0" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip">
+        <TextView android:textAppearance="@style/a_" android:ellipsize="marquee" android:id="@id/f7" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <include android:layout_gravity="center" android:id="@id/a2w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/notification_template_part_time" />
+        <include android:layout_gravity="center" android:id="@id/bt1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/notification_template_part_chronometer" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/a8" android:ellipsize="marquee" android:id="@id/bt2" android:visibility="gone" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="-2.0dip" android:layout_marginBottom="-2.0dip" android:singleLine="true" android:layout_marginStart="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bt3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip">
+        <TextView android:textAppearance="@style/a6" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/bq" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/a7" android:gravity="center" android:layout_gravity="center" android:id="@id/bt4" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.0" android:paddingStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/au3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/au4" android:layout_width="fill_parent" android:layout_height="106.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:minHeight="0.0dip" style="@style/MMSearchListNormalItem">
+                <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/be" />
+                <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/au5" android:layout_height="wrap_content" style="@style/MMSearchListNormalItem">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/au6" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:layout_marginRight="@dimen/i0" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ib" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/au7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/MMFontTitleInList" />
+                    </LinearLayout>
+                    <TextView android:id="@id/au8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="{desc}" android:singleLine="true" style="@style/MMFontTipInList" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/au9" android:layout_width="fill_parent" android:layout_height="106.0dip">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/au_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpf" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <View android:id="@id/aua" android:background="@color/ni" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <LinearLayout android:id="@id/aub" android:layout_height="68.0dip" style="@style/FTSListSmallItem">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:layout_marginRight="@dimen/i0" android:src="@raw/addfriend_icon_search" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ib" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/auc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/MMFontTitleInList" />
+            <TextView android:id="@id/aud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/ay1" android:singleLine="true" style="@style/MMFontTipInList" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

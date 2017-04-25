@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">முகப்பிற்கு வழிசெலுத்து</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">மேலே வழிசெலுத்து</string>
+    <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
+    <string name="j">முடிந்தது</string>
+    <string name="k">எல்லாம் காட்டு</string>
+    <string name="l">பயன்பாட்டைத் தேர்வுசெய்க</string>
+    <string name="m">முடக்கு</string>
+    <string name="n">இயக்கு</string>
+    <string name="o">தேடு...</string>
+    <string name="p">வினவலை அழி</string>
+    <string name="q">தேடல் வினவல்</string>
+    <string name="r">தேடு</string>
+    <string name="s">வினவலைச் சமர்ப்பி</string>
+    <string name="t">குரல் தேடல்</string>
+    <string name="u">இதனுடன் பகிர்</string>
+    <string name="v">சுருக்கு</string>
+    <string name="w">999+</string>
+    <string name="x">%s உடன் பகிர்</string>
+</resources>

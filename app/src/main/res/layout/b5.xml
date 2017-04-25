@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingTop="23.0dip" android:paddingRight="14.0dip" android:paddingBottom="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/am" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/je" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/g0" style="@style/MMSolidGreenLargeButton" />
+    <TextView android:id="@id/jf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/g1" style="@style/MMSolidWhiteLargeButton" />
+</LinearLayout>

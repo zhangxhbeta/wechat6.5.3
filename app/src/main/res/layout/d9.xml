@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/qh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.plugin.bottle.ui.BallonImageView android:id="@id/qi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ti" />
+        <ImageView android:id="@id/qj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/un" />
+        <com.tencent.mm.plugin.bottle.ui.MoonImageView android:layout_gravity="center|left|top" android:id="@id/qk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.mm.plugin.bottle.ui.LightHouseImageView android:layout_gravity="center|right|top" android:id="@id/ql" android:background="@anim/y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/qm" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:background="@drawable/tj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:weightSum="3.0">
+            <TextView android:text="@string/uz" style="@style/bottleBoardText" />
+            <TextView android:text="@string/uy" style="@style/bottleBoardText" />
+            <TextView android:text="@string/ux" style="@style/bottleBoardText" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:weightSum="3.0">
+            <ImageView android:id="@id/qn" android:src="@drawable/tp" android:contentDescription="@string/uk" style="@style/bottleBeachIcon" />
+            <ImageView android:id="@id/qo" android:src="@drawable/tl" android:contentDescription="@string/uj" style="@style/bottleBeachIcon" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/qp" android:src="@drawable/tn" android:contentDescription="@string/ui" style="@style/bottleBeachIcon" />
+                <TextView android:layout_gravity="bottom|center" android:id="@id/qr" android:visibility="gone" android:layout_marginLeft="20.0dip" android:layout_marginBottom="10.0dip" android:text="@null" style="@style/UnreadCountTipsStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/qs" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.bottle.ui.ThrowBottleAnimUI android:id="@id/qt" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.bottle.ui.ThrowBottleAnimUI android:id="@id/qu" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/qv" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b9" android:contentDescription="@string/a66" />
+    <com.tencent.mm.plugin.bottle.ui.SprayLayout android:layout_gravity="bottom|center" android:id="@id/qw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/qx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/um" />
+        <ImageView android:id="@id/qy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ul" />
+        <ImageView android:id="@id/qz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uk" />
+    </com.tencent.mm.plugin.bottle.ui.SprayLayout>
+</FrameLayout>

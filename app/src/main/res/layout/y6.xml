@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/blc" android:background="@color/x" android:layout_width="fill_parent" android:layout_height="@dimen/da"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bld" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/bz">
+        <ImageView android:id="@id/ble" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a5" android:contentDescription="@string/e7" />
+        <ImageView android:id="@id/g8" android:background="@color/a3" android:visibility="visible" android:layout_width="@dimen/dm" android:layout_height="@dimen/gm" />
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_icon" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/c0" android:textColor="@color/r0" android:ellipsize="end" android:gravity="center|left" android:id="@id/blf" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bb2" android:singleLine="true" />
+    <View android:id="@id/blg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/blh" android:background="@drawable/a9" android:focusable="true" android:layout_width="@dimen/da" android:layout_height="@dimen/da" android:src="@raw/actionbar_search_icon2" />
+    <ImageButton android:id="@id/bli" android:background="@drawable/a9" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/da" android:layout_height="@dimen/da" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/blj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/g9" android:layout_marginLeft="@dimen/i_" android:layout_marginRight="@dimen/i_" android:text="send" style="@style/MMSolidGreenSmallButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">હોમ પર નેવિગેટ કરો</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">ઉપર નેવિગેટ કરો</string>
+    <string name="abc_action_menu_overflow_description">વધુ વિકલ્પો</string>
+    <string name="j">થઈ ગયું</string>
+    <string name="k">બધું જુઓ</string>
+    <string name="l">એક એપ્લિકેશન પસંદ કરો</string>
+    <string name="m">બંધ</string>
+    <string name="n">ચાલુ</string>
+    <string name="o">શોધો…</string>
+    <string name="p">ક્વેરી સાફ કરો</string>
+    <string name="q">શોધ ક્વેરી</string>
+    <string name="r">શોધો</string>
+    <string name="s">ક્વેરી સબમિટ કરો</string>
+    <string name="t">વૉઇસ શોધ</string>
+    <string name="u">આની સાથે શેર કરો</string>
+    <string name="v">સંકુચિત કરો</string>
+    <string name="w">999+</string>
+    <string name="x">%s સાથે શેર કરો</string>
+</resources>

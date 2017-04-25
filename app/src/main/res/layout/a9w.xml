@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bb" android:paddingRight="@dimen/h0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gr" android:background="@drawable/a9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/bz">
+        <ImageView android:id="@id/a8l" android:background="@null" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a5" android:contentDescription="@string/e7" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/g8" android:background="@color/a3" android:layout_width="@dimen/dm" android:layout_height="@dimen/gm" />
+    </LinearLayout>
+    <TextView android:id="@id/a8m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cnb" android:layout_toRightOf="@id/gr" android:layout_centerVertical="true" style="@style/MMActionBar.TitleTextStyle" />
+    <TextView android:textColor="@color/ny" android:id="@id/a8n" android:background="@drawable/amk" android:visibility="gone" android:text="@string/cmv" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMSmallButton" />
+</RelativeLayout>

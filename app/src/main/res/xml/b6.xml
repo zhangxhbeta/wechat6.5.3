@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:title="@string/cdb" />
+    <CheckBoxPreference android:title="@string/cfw" android:key="settings_need_verify" android:layout="@layout/z1" />
+    <CheckBoxPreference android:summary="@string/ch4" android:title="@string/aaf" android:key="settings_recommend_mobilefriends_to_me" />
+    <CheckBoxPreference android:summary="@string/ch3" android:title="@string/cec" android:key="settings_find_google_contact" />
+    <Preference android:title="@string/cd_" android:key="settings_add_me_way" android:layout="@layout/z1" />
+    <Preference android:title="@string/cgy" android:key="settings_about_blacklist" android:layout="@layout/z1" />
+    <PreferenceTitleCategory android:title="@string/cdc" android:key="settings_add_friends_timeline_tip" />
+    <Preference android:title="@string/cr_" android:key="timline_outside_permiss" />
+    <Preference android:title="@string/co3" android:key="timeline_black_permiss" />
+    <Preference android:title="@string/cgx" android:key="edit_timeline_group" />
+    <CheckBoxPreference android:title="@string/a8v" android:key="timeline_stranger_show" android:layout="@layout/z1" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:title="@string/cdl" />
+    <CheckBoxPreference android:title="@string/ceg" android:key="settings_find_me_by_weixin" />
+    <CheckBoxPreference android:title="@string/cef" android:key="settings_find_me_by_mobile" />
+    <CheckBoxPreference android:title="@string/ced" android:key="settings_find_me_by_QQ" />
+    <CheckBoxPreference android:title="@string/cee" android:key="settings_find_me_by_google" />
+    <Preference android:title="@string/chh" android:layout="@layout/a0h" />
+    <PreferenceTitleCategory android:title="@string/cdk" android:key="settings_friend_verify" />
+    <CheckBoxPreference android:title="@string/cd7" android:key="settings_add_me_by_chatroom" />
+    <CheckBoxPreference android:title="@string/cd9" android:key="settings_add_me_by_qrcode" />
+    <CheckBoxPreference android:title="@string/cd8" android:key="settings_add_me_by_namecard" />
+</PreferenceScreen>

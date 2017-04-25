@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/lb" android:layout_width="fill_parent" android:layout_height="@dimen/hl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/c0" android:textColor="@drawable/l_" android:layout_gravity="center_horizontal" android:id="@id/bo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/c9" android:textColor="@drawable/l9" android:layout_gravity="center_horizontal" android:id="@id/az2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/c9" android:textColor="@color/m5" android:layout_gravity="center_horizontal" android:id="@id/c2t" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

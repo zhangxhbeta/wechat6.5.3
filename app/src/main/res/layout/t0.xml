@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/hz" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/b19" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/b1_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/b1a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.tencent.mm.plugin.location.ui.MyLocationButton android:id="@id/b1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginBottom="@dimen/gm" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                <ViewStub android:id="@id/b1c" android:layout="@layout/a2k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="center" android:id="@id/b1d" android:background="@drawable/k9" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="@dimen/bz" android:layout_marginBottom="@dimen/gm" android:text="@string/czm" android:layout_toRightOf="@id/b1b" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/bb" android:id="@id/b1e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/bkz" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <Button android:textSize="@dimen/gc" android:id="@id/b1f" android:background="@drawable/k9" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="42.0dip" android:layout_marginRight="@dimen/gj" android:layout_marginBottom="@dimen/gm" android:text="@string/bbk" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <RelativeLayout android:id="@id/b1g" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.tencent.mm.plugin.location.ui.VolumeMeter android:id="@id/b1h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gm" android:layout_alignParentBottom="true" layout="@layout/trackpoint_bottom_actionbar" />
+                <com.tencent.mm.plugin.location.ui.TipSayingWidget android:id="@id/b1i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/b1j" android:background="@color/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/b1k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:textColor="@color/bb" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bnr" android:layout_below="@id/b1k" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include layout="@layout/mm_action_bar_title" />
+    <com.tencent.mm.plugin.location.ui.ShareHeader android:id="@id/b1l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/kv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/NavPage">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gd" android:layout_marginRight="@dimen/gj">
+            <ImageView android:id="@id/ni" android:layout_width="wrap_content" android:layout_height="@dimen/gl" android:src="@drawable/a9o" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gr" android:layout_marginRight="@dimen/gj">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p2" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p3" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/gj">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/nj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TENCENT/Tingjiliu" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/nk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv" android:text="Tingjiliu" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bz" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/bz">
+            <Button android:id="@id/nl" android:layout_width="fill_parent" android:text="@string/p1" style="@style/MMSolidGreenLargeButton" />
+            <Button android:id="@id/nm" android:layout_width="fill_parent" android:layout_marginTop="@dimen/bz" android:text="@string/ot" style="@style/MMSolidRedLargeButton" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

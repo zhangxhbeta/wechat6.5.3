@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/a0j" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cit" android:background="@raw/default_avatar" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="5.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0dip" android:id="@id/ciu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/civ" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/ciw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/friendactivity_likeicon" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/bb" android:id="@id/cix" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/bb" android:id="@id/ciy" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

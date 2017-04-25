@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gj" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i_">
+        <ImageView android:id="@id/gk" android:background="@null" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a5" android:contentDescription="@string/e7" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/gl" android:background="@color/a3" android:layout_width="@dimen/dm" android:layout_height="@dimen/gm" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/af3" android:paddingLeft="6.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/i_" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+        <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_search_icon" />
+        <ScrollView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never">
+            <com.tencent.mm.plugin.favorite.ui.base.FavTagPanel android:id="@id/apt" android:layout_width="fill_parent" android:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/bz" flowlayout:verticalSpacing="@dimen/bz" />
+        </ScrollView>
+        <ImageButton android:id="@id/apu" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:src="@drawable/lo" android:contentDescription="@string/a63" />
+    </LinearLayout>
+</com.tencent.mm.plugin.favorite.ui.base.FavSearchActionView>

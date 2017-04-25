@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.favorite.ui.base.FavTagEntrance android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aqd" android:background="@drawable/ae9" android:paddingTop="@dimen/i_" android:paddingBottom="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i_" android:src="@raw/tags_icon" />
+    <TextView android:textColor="@color/g0" android:id="@id/aqe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</com.tencent.mm.plugin.favorite.ui.base.FavTagEntrance>

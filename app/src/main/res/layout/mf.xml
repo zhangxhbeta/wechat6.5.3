@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:gravity="center_horizontal" android:id="@id/s6" android:background="@color/kv" android:paddingTop="@dimen/gp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ajg" />
+        <ListView android:id="@id/s7" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" style="@style/MMList" />
+        <com.tencent.mm.plugin.brandservice.ui.base.SortViewScrollBar android:layout_gravity="center|right" android:id="@id/s8" android:layout_width="@dimen/bu" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bpv" android:background="@drawable/j9" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bpw" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip">
+                <ImageView android:id="@id/bpx" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@raw/tipsbanner_multitalk_icon" android:scaleType="fitXY" android:contentDescription="@null" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/kl" android:ellipsize="end" android:gravity="left" android:id="@id/bpy" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/kn" android:ellipsize="end" android:gravity="left" android:id="@id/bpz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="7" android:singleLine="true" android:layout_weight="0.0" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/kl" android:gravity="left" android:id="@id/bq0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/bm7" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bq1" android:background="@drawable/je" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bt" android:textStyle="bold" android:textColor="#cc000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bq2" android:paddingTop="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bq3" android:paddingLeft="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="22.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/bq4" android:paddingTop="24.0dip" android:paddingRight="22.0dip" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/bq5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="@dimen/hg" android:textColor="@color/cc" android:id="@id/bq6" android:background="@drawable/ai" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" android:minWidth="55.0dip" android:text="@string/blf" style="@style/MMSolidWhiteSmallButton" />
+                    <Button android:textSize="@dimen/hg" android:textColor="@color/h_" android:id="@id/bq7" android:background="@drawable/ai" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="55.0dip" android:text="@string/blh" style="@style/MMSolidWhiteSmallButton" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

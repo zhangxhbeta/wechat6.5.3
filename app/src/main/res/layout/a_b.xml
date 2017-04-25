@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ccg" style="@style/SnackBar_SnackBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cch" style="@style/SnackBar_Message" />
+    <TextView android:id="@id/cci" style="@style/SnackBar_Button" />
+</LinearLayout>

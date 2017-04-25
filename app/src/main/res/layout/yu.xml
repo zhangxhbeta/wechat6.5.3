@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/hg" android:textColor="@color/l4" android:gravity="center" android:id="@id/on" android:background="@drawable/af3" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/ad6" android:inputType="phone" />
+    <com.tencent.mm.ui.base.MMClearEditText android:textSize="@dimen/hg" android:textColorHint="@color/g5" android:id="@id/bmd" android:background="@drawable/af3" android:paddingLeft="26.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/bzw" android:inputType="phone" />
+</merge>

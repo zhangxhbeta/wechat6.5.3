@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/e3" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="fill_parent" android:layout_height="@dimen/he" android:minHeight="@dimen/he"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/brl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bvt" android:padding="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:src="@raw/round_selector_checked" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bvu" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/brl" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/l4" android:id="@id/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bnp" style="@style/MMFontTitleInList" />
+        <TextView android:textColor="@color/hy" android:id="@id/sk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="hehe" style="@style/MMFontTipInList" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bvv" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/brl" android:layout_centerVertical="true"> >
+<TextView android:textColor="@color/l4" android:id="@id/bvw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bnp" style="@style/MMFontTitleInList" />
+    </LinearLayout>
+</RelativeLayout>

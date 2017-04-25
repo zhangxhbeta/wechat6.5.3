@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/ck9" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="result" style="@style/MMTextView" />
+    <Button android:id="@id/ck_" android:text="@string/dnd" style="@style/MMLargeButton" />
+    <Button android:id="@id/cka" android:text="@string/dn9" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckb" android:text="@string/dnc" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckc" android:text="@string/dna" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckd" android:text="@string/dn8" style="@style/MMLargeButton" />
+    <Button android:id="@id/cke" android:text="@string/dnb" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckf" android:text="@string/dn_" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckg" android:text="@string/dn7" style="@style/MMLargeButton" />
+    <Button android:id="@id/ckh" android:text="@string/dn6" style="@style/MMLargeButton" />
+</LinearLayout>

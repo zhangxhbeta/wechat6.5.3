@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/lq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/f6" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:layout_marginLeft="@dimen/lx" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/m1" android:textColor="@color/bh" android:layout_gravity="center_vertical" android:id="@id/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lx" />
+    <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="0.0dip" android:id="@id/fn" android:background="@drawable/lh" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lx" android:button="@null" android:text="" android:drawablePadding="0.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/g8" android:visibility="gone" android:layout_marginLeft="@dimen/lx" android:layout_marginRight="@dimen/lx" style="@style/DividerLine" />
+</LinearLayout>

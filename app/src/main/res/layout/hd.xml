@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/a48" android:background="@drawable/bv" android:paddingLeft="@dimen/h0" android:paddingTop="0.0dip" android:paddingRight="@dimen/nc" android:paddingBottom="0.0dip" android:layout_width="@dimen/nd" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bz" android:paddingBottom="@dimen/bz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/a54" android:layout_width="34.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/id" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gs">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="15.0dip" android:textColor="@color/r0" android:ellipsize="end" android:id="@id/a55" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/id" android:singleLine="true" />
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/ie" android:textColor="@color/r0" android:ellipsize="end" android:id="@id/a56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ib" android:singleLine="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="20.0dip">
+            <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/im" android:textColor="@color/cb" android:id="@id/a57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/chatting_item_avatar_to" />
+</LinearLayout>

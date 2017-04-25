@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/a22" android:background="@drawable/aau" android:padding="0.0dip" android:layout_height="wrap_content" style="@style/MMFooter">
+        <LinearLayout android:orientation="horizontal" android:id="@id/a23" android:background="@drawable/a9l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0px">
+            <ImageView android:layout_gravity="bottom|center" android:layout_width="@dimen/ct" android:layout_height="wrap_content" android:src="@drawable/db" android:scaleType="center" android:contentDescription="@string/a0b" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip">
+            <com.tencent.mm.plugin.f2f.F2FButton android:layout_gravity="bottom|center" android:id="@id/a24" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/p1" android:minWidth="0.0dip" />
+            <ImageButton android:layout_gravity="bottom|center" android:id="@id/a25" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/do" android:minWidth="0.0dip" android:contentDescription="@string/a0d" />
+            <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/a26" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/bb" android:layout_gravity="bottom" android:id="@id/a27" android:layout_marginTop="8.0dip" android:maxHeight="@dimen/cl" android:minHeight="@dimen/cm" android:hint="@null" android:singleLine="false" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" style="@style/MMEditText" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/hg" android:textColor="@color/g2" android:layout_gravity="center_vertical" android:id="@id/a28" android:background="@drawable/ld" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cu" android:layout_marginLeft="@dimen/bz" android:layout_marginRight="@dimen/bz" android:text="@string/a11" android:layout_weight="1.0" android:soundEffectsEnabled="true" android:contentDescription="@string/a0g" />
+            <ImageButton android:layout_gravity="bottom|center" android:id="@id/a29" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dl" android:contentDescription="@string/a0c" />
+            <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/a2_" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="top" android:id="@id/a2a" android:visibility="gone" style="@style/ChattingUIWordCount" />
+                <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/a2b" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/of" android:layout_centerInParent="true" />
+                    <Button android:textSize="@dimen/gc" android:textColor="@color/se" android:layout_gravity="center_vertical" android:id="@id/a2c" android:background="@drawable/bn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cp" android:layout_marginLeft="2.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="8.0dip" android:minWidth="@dimen/cr" android:text="@string/a4q" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.pluginsdk.ui.chat.ChatFooterBottom android:layout_gravity="center" android:orientation="horizontal" android:id="@id/a2d" android:background="@drawable/aau" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.pluginsdk.ui.chat.AppPanel android:id="@id/a2e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.pluginsdk.ui.chat.ChatFooterBottom>
+</LinearLayout>

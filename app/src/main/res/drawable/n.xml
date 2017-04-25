@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/ke" android:insetRight="@dimen/ke" android:insetTop="@dimen/kf" android:insetBottom="@dimen/kd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="false" android:drawable="@drawable/rj" />
+        <item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/rj" />
+        <item android:drawable="@drawable/ri" />
+    </selector>
+</inset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/NavPage">
+        <ImageView android:id="@id/my" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/a9k" android:scaleType="centerInside" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="25.0dip" android:text="@string/pz" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/l4" android:id="@id/mz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/pt" />
+        <Button android:id="@id/n0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp" android:layout_marginTop="32.0dip" android:layout_marginRight="@dimen/dp" android:text="@string/pu" style="@style/MMSolidGreenLargeButton" />
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/bs" android:layout_gravity="bottom" android:id="@id/n1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:layout_marginBottom="32.0dip" android:text="@string/ob" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameRecommendView android:orientation="vertical" android:id="@id/b0_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/f7" android:visibility="gone" style="@style/MMGameCenterSectionTitle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/aj8" android:background="@color/gv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.plugin.game.ui.GameRecommendView>
+</LinearLayout>

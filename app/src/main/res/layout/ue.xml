@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/ni" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/b2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/b5q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b2">
+            <ImageView android:id="@id/mu" android:layout_width="@dimen/b1" android:layout_height="@dimen/b1" android:layout_marginLeft="@dimen/b0" android:src="@drawable/afd" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/bf" android:textColor="@color/bb" android:id="@id/b5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/mu" />
+            <TextView android:textSize="@dimen/bk" android:textColor="@color/lq" android:id="@id/b5s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi" android:layout_marginTop="@dimen/bj" android:text="tsubasa_2011" android:layout_toRightOf="@id/mu" android:layout_below="@id/b5r" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/lp" android:id="@id/b5t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b3" android:layout_marginTop="@dimen/be" android:text="@string/b85" />
+        <LinearLayout android:orientation="vertical" android:id="@id/b5u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ba" />
+        <LinearLayout android:orientation="vertical" android:id="@id/b5v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7" />
+        <TextView android:textSize="@dimen/b4" android:textColor="@color/io" android:gravity="center|left" android:id="@id/b5w" android:background="@drawable/kg" android:paddingLeft="@dimen/b3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/i9" android:layout_marginTop="@dimen/b5" android:text="@string/b7s" />
+        <TextView android:textSize="@dimen/b4" android:textColor="@color/io" android:gravity="center|left" android:id="@id/b5x" android:background="@drawable/kg" android:paddingLeft="@dimen/b3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/i9" android:text="@string/b7t" />
+        <TextView android:textSize="@dimen/b4" android:textColor="@color/io" android:gravity="center|left" android:id="@id/b5y" android:background="@drawable/kg" android:paddingLeft="@dimen/b3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/i9" android:text="@string/b7v" />
+        <Button android:layout_gravity="center" android:id="@id/b5z" android:layout_marginLeft="@dimen/bg" android:layout_marginTop="@dimen/bh" android:layout_marginRight="@dimen/bg" android:text="@string/b7u" style="@style/MMSolidGreenLargeButton" />
+        <TextView android:textSize="@dimen/bd" android:textColor="@color/lp" android:id="@id/b60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b3" android:layout_marginTop="@dimen/be" android:layout_marginRight="@dimen/b3" />
+    </LinearLayout>
+</ScrollView>

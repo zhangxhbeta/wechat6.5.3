@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/lb" android:paddingBottom="@dimen/lb" android:layout_width="@dimen/ld" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.appbrand.widget.AppBrandTypedTagImageView android:layout_gravity="center_horizontal" android:id="@id/f6" android:layout_width="@dimen/l_" android:layout_height="@dimen/l_" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/bb" android:gravity="center" android:id="@id/bq" android:layout_width="fill_parent" android:layout_height="@dimen/lc" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/la" android:layout_marginRight="5.0dip" />
+</LinearLayout>

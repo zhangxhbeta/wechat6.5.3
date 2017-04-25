@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/wl" android:layout="@layout/tm" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/mh" android:id="@id/b2z" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/b30" android:visibility="gone" android:layout="@layout/a9k" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.ui.base.MultiTouchImageView android:gravity="center" android:id="@id/ah" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/b31" android:layout="@layout/tk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/b32" android:layout="@layout/tl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/b33" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomWhiteProgressBar" />
+</FrameLayout>

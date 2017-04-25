@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">Zulazulela ekhaya</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">Zulazulela phezulu</string>
+    <string name="abc_action_menu_overflow_description">Izinketho eziningi</string>
+    <string name="j">Kwenziwe</string>
+    <string name="k">Buka konke</string>
+    <string name="l">Khetha uhlelo lokusebenza</string>
+    <string name="m">VALIWE</string>
+    <string name="n">VULIWE</string>
+    <string name="o">Iyasesha...</string>
+    <string name="p">Sula inkinga</string>
+    <string name="q">Umbuzo wosesho</string>
+    <string name="r">Sesha</string>
+    <string name="s">Hambisa umbuzo</string>
+    <string name="t">Ukusesha ngezwi</string>
+    <string name="u">Yabelana no-</string>
+    <string name="v">Goqa</string>
+    <string name="w">999+</string>
+    <string name="x">Yabelana no-%s</string>
+</resources>

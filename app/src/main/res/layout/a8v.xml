@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MMPreferencePage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/c9t" android:background="@color/kv" android:choiceMode="singleChoice" style="@style/MMList" />
+</LinearLayout>

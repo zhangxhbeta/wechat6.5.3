@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:text="@string/cbu" style="@style/MMLineLabel" />
+            <com.tencent.mm.ui.base.MMClearEditText android:id="@id/c5r" android:layout_marginTop="@dimen/hf" android:minHeight="@dimen/gt" android:maxLines="2" android:inputType="textMultiLine" style="@style/MMLineEditText">
+                <requestFocus />
+            </com.tencent.mm.ui.base.MMClearEditText>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c5v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gn" android:baselineAligned="false" android:minHeight="@dimen/i9">
+                <TextView android:gravity="center|left" android:paddingLeft="@dimen/i_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/i9" android:text="@string/cr_" android:maxLines="2" android:singleLine="false" android:layout_weight="1.0" style="@style/MMFontPreferenceLarge" />
+                <include android:gravity="center|right" android:layout_gravity="right" android:id="@id/fl" layout="@layout/mm_preference_checkbox" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

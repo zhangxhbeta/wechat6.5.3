@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">गृह खोज्नुहोस्</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">माथि खोज्नुहोस्</string>
+    <string name="abc_action_menu_overflow_description">थप विकल्पहरू</string>
+    <string name="j">सम्पन्न भयो</string>
+    <string name="k">सबै हेर्नुहोस्</string>
+    <string name="l">एउटा अनुप्रयोग छान्नुहोस्</string>
+    <string name="m">निष्क्रिय पार्नुहोस्</string>
+    <string name="n">सक्रिय गर्नुहोस्</string>
+    <string name="o">खोज्नुहोस्...</string>
+    <string name="p">प्रश्‍न हटाउनुहोस्</string>
+    <string name="q">जिज्ञासाको खोज गर्नुहोस्</string>
+    <string name="r">खोज्नुहोस्</string>
+    <string name="s">जिज्ञासा पेस गर्नुहोस्</string>
+    <string name="t">भ्वाइस खोजी</string>
+    <string name="u">साझेदारी गर्नुहोस्...</string>
+    <string name="v">संक्षिप्त पार्नुहोस्</string>
+    <string name="w">९९९+</string>
+    <string name="x">%s सँग साझेदारी गर्नुहोस्</string>
+</resources>

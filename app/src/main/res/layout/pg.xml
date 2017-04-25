@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ar9" android:background="#fff3f3f3" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/l4" android:gravity="left" android:id="@id/ar7" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/gm" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asy" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/ie" android:gravity="left" android:paddingLeft="@dimen/gj" android:paddingTop="20.0dip" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asz" android:layout_below="@id/ar7" style="@style/MMBriefText" />
+    <TextView android:textSize="@dimen/ie" android:textColor="@color/rr" android:gravity="center" android:id="@id/ar_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hf" android:layout_marginRight="@dimen/hf" android:layout_marginBottom="@dimen/gn" android:text="@string/asx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/ara" android:layout_marginLeft="@dimen/hf" android:layout_marginRight="@dimen/hf" android:layout_marginBottom="@dimen/gn" android:text="@string/at0" android:layout_above="@id/ar_" style="@style/MMSolidGreenLargeButton" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/gr" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.emoji.ui.widget.MMCopiableTextView android:textSize="@dimen/gc" android:textColor="#ff6c6c6c" android:gravity="center_horizontal" android:id="@id/aii" android:background="@drawable/q8" android:paddingBottom="@dimen/bv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/aij" android:layout_marginTop="@dimen/bz" android:layout_marginBottom="@dimen/bz" android:minWidth="@dimen/i6" android:text="@string/ahf" style="@style/MMSolidRedSmallButton" />
+    <TextView android:textSize="@dimen/gc" android:textColor="#ff6c6c6c" android:gravity="center_horizontal" android:id="@id/aik" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mm.plugin.emoji.ui.v2.DonorsAvatarView android:layout_gravity="center" android:id="@id/ail" android:paddingTop="@dimen/bz" android:paddingBottom="@dimen/gd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

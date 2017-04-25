@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">Fara heim</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">Fara upp</string>
+    <string name="abc_action_menu_overflow_description">Fleiri valkostir</string>
+    <string name="j">Lokið</string>
+    <string name="k">Sjá allt</string>
+    <string name="l">Veldu forrit</string>
+    <string name="m">SLÖKKT</string>
+    <string name="n">KVEIKT</string>
+    <string name="o">Leita…</string>
+    <string name="p">Hreinsa fyrirspurn</string>
+    <string name="q">Leitarfyrirspurn</string>
+    <string name="r">Leita</string>
+    <string name="s">Senda fyrirspurn</string>
+    <string name="t">Raddleit</string>
+    <string name="u">Deila með</string>
+    <string name="v">Minnka</string>
+    <string name="w">999+</string>
+    <string name="x">Deila með %s</string>
+</resources>

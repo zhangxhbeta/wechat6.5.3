@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/b1t" android:background="@drawable/im" android:layout_width="fill_parent" android:layout_height="@dimen/d3" android:layout_marginLeft="@dimen/hf" android:layout_marginRight="@dimen/bu" android:text="@string/cw" android:singleLine="true" style="@style/MMFontTitleInList" />
+</LinearLayout>

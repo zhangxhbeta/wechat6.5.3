@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ni" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ck0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/sns_shoot_shareqzone_normal" android:contentDescription="@string/cs0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ck1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:src="@raw/sns_shoot_facebook_normal" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:src="@raw/sns_shoot_twitter_normal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

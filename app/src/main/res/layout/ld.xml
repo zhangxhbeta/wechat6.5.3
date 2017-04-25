@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/MMPreferencePage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/agc" android:background="@drawable/bn" android:padding="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/r0" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/agd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/aij" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/emoji_store_main" />
+</LinearLayout>

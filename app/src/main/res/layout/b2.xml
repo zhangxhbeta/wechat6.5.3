@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/j5" android:layout_width="@dimen/o6" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/ar" android:id="@id/j6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gm" android:layout_marginTop="@dimen/gm" android:text="@string/dl_" />
+        <ImageView android:id="@id/j7" android:layout_width="@dimen/i2" android:layout_height="@dimen/i2" android:layout_marginLeft="@dimen/gm" android:layout_marginTop="@dimen/gj" android:src="@raw/login_app_default_avatar" android:layout_below="@id/j6" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/ar" android:id="@id/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h0" android:layout_marginTop="@dimen/ln" android:layout_marginRight="@dimen/gj" android:text="@string/bbp" android:maxLines="2" android:layout_toRightOf="@id/j7" />
+        <ImageView android:background="@color/ao" android:layout_width="@dimen/ps" android:layout_height="1.0px" android:layout_marginLeft="@dimen/gm" android:layout_marginTop="@dimen/gj" android:layout_below="@id/j7" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/j9" android:background="@color/r0" android:layout_width="@dimen/ps" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gm" android:layout_marginTop="4.0dip">
+        <com.tencent.mm.plugin.appbrand.widget.AppBrandLoginListView android:id="@id/j_" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="@dimen/o6" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tj" android:layout_marginBottom="@dimen/i1">
+        <Button android:textSize="@dimen/gy" android:textColor="@color/aq" android:id="@id/ja" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pr" android:text="@string/bc7" />
+        <Button android:textSize="@dimen/gy" android:textColor="@color/ap" android:id="@id/jb" android:background="@drawable/aj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pp" android:text="@string/bbm" android:layout_toRightOf="@id/ja" />
+    </RelativeLayout>
+</LinearLayout>

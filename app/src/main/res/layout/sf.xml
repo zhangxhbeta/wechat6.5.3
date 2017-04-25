@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.RecentGameInfoView android:orientation="vertical" android:id="@id/b06" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/g_" android:paddingLeft="@dimen/c4" android:paddingTop="@dimen/g9" android:paddingRight="@dimen/c4" android:paddingBottom="@dimen/g7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:id="@id/b07" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <LinearLayout android:id="@id/b08" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:layout_gravity="center_vertical" android:id="@id/b09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g1" android:singleLine="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xy" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/hw" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mm.plugin.game.ui.RecentGameInfoView>
+</LinearLayout>

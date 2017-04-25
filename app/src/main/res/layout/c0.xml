@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" style="@style/MMBody">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/t3" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m4" />
+                <TextView android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/m3" android:lineSpacingExtra="4.0dip" style="@style/MMBriefText" />
+                <RelativeLayout android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m5" android:layout_alignParentLeft="true" />
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/mg" android:focusable="false" android:clickable="false" android:layout_width="@dimen/ik" android:layout_height="@dimen/ih" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/mh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m2" android:layout_alignParentLeft="true" />
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/mi" android:focusable="false" android:clickable="false" android:layout_width="@dimen/ik" android:layout_height="@dimen/ih" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qm" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

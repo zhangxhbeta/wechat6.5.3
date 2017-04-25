@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dp" android:paddingRight="@dimen/dp" android:paddingBottom="@dimen/hf" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ab8" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/ab9" android:layout_marginTop="@dimen/i_" android:text="@string/ac5" style="@style/MMSolidGreenLargeButton" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/ab9">
+            <Button android:id="@id/ab_" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:focusable="true" android:clickable="true" android:text="@string/a_c" android:layout_weight="1.0" style="@style/MMSolidWhiteLargeButton" />
+            <View android:id="@id/aba" android:layout_width="@dimen/i_" android:layout_height="wrap_content" />
+            <Button android:id="@id/abb" android:focusable="true" android:clickable="true" android:text="@string/a8i" android:layout_weight="1.0" style="@style/MMSolidWhiteLargeButton" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/abc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/abd" android:text="@string/aav" android:layout_weight="1.0" style="@style/MMSolidGreenLargeButton" />
+        <Button android:id="@id/abe" android:layout_marginTop="@dimen/i_" android:text="@string/a8i" android:layout_weight="1.0" style="@style/MMSolidWhiteLargeButton" />
+    </LinearLayout>
+    <Button android:id="@id/abf" android:visibility="gone" android:layout_marginTop="@dimen/i_" android:text="@string/rg" style="@style/MMSolidRedLargeButton" />
+    <Button android:id="@id/abg" android:text="@string/a7l" style="@style/MMSolidGreenLargeButton" />
+    <Button android:id="@id/abh" android:text="@string/aax" style="@style/MMSolidGreenLargeButton" />
+    <Button android:id="@id/abi" android:layout_marginTop="@dimen/gj" android:text="@string/ic" style="@style/MMSolidWhiteLargeButton" />
+    <Button android:id="@id/abj" android:visibility="gone" android:layout_marginTop="@dimen/i_" android:text="@string/a8i" style="@style/MMSolidWhiteLargeButton" />
+    <Button android:id="@id/abk" android:visibility="gone" android:layout_marginTop="@dimen/gj" android:text="@string/a_a" style="@style/MMSolidWhiteLargeButton" />
+    <TextView android:gravity="center_horizontal" android:id="@id/abl" android:paddingTop="@dimen/gj" android:layout_width="fill_parent" android:text="@string/a_f" android:singleLine="false" style="@style/MMFontPreferenceSmall" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/alb" android:background="@color/f6" android:layout_width="fill_parent" android:layout_height="@dimen/dq"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/alc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ald" android:layout_marginLeft="@dimen/e_" style="@style/ExdeviceProfileAddButtonLogo" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_marginRight="@dimen/e8" style="@style/ExdeviceRankUserInfoLayout">
+            <RelativeLayout android:paddingLeft="@dimen/e_" android:layout_width="wrap_content" android:layout_height="55.0dip" android:layout_toLeftOf="@id/ale" android:layout_centerVertical="true">
+                <View android:id="@id/alf" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+                <TextView android:id="@id/alg" android:layout_toLeftOf="@id/alh" android:layout_alignLeft="@id/alf" android:layout_centerInParent="true" style="@style/ExdeviceRankUserName" />
+                <TextView android:id="@id/alh" android:text="" android:layout_above="@id/alf" android:layout_alignRight="@id/alf" style="@style/ExdeviceRankUserScore" />
+            </RelativeLayout>
+            <ImageView android:id="@id/ale" android:layout_marginLeft="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ExdeviceProfileArrow" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/ali" android:background="@color/f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

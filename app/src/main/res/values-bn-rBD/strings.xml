@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">হোম এ নেভিগেট করুন</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">উপরের দিকে নেভিগেট করুন</string>
+    <string name="abc_action_menu_overflow_description">আরো বিকল্প</string>
+    <string name="j">সম্পন্ন হয়েছে</string>
+    <string name="k">সবগুলো দেখুন</string>
+    <string name="l">একটি অ্যাপ্লিকেশান চয়ন করুন</string>
+    <string name="m">বন্ধ</string>
+    <string name="n">চালু</string>
+    <string name="o">অনুসন্ধান...</string>
+    <string name="p">ক্যোয়ারী সাফ করুন</string>
+    <string name="q">ক্যোয়ারী অনুসন্ধান করুন</string>
+    <string name="r">অনুসন্ধান করুন</string>
+    <string name="s">ক্যোয়ারী জমা দিন</string>
+    <string name="t">ভয়েস অনুসন্ধান</string>
+    <string name="u">এর সাথে ভাগ করুন</string>
+    <string name="v">সঙ্কুচিত করুন</string>
+    <string name="w">৯৯৯+</string>
+    <string name="x">%s এর সাথে ভাগ করুন</string>
+</resources>

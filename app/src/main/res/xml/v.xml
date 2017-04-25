@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/ja" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/a96" android:key="contact_info_googlecontact_add_view" android:layout="@layout/z1" />
+    <Preference android:title="@string/a97" android:key="contact_info_googlecontact_setting_view" android:layout="@layout/z1" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cgk" android:key="contact_info_googlecontact_install" android:layout="@layout/tv" />
+    <Preference android:title="@string/cgq" android:key="contact_info_googlecontact_uninstall" android:layout="@layout/vr" />
+</PreferenceScreen>

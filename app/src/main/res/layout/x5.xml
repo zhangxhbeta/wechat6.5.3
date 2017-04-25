@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/jq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bh9" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/bh_" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_offline_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/bha" android:text="@string/d_9" android:layout_below="@id/bh_" style="@style/MallIndexEntranceText" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/jn" android:ellipsize="end" android:id="@id/bhb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/bha" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bhc" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/bhd" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_balance_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/bhe" android:text="@string/d9z" android:layout_below="@id/bhd" style="@style/MallIndexEntranceText" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/jn" android:ellipsize="end" android:id="@id/bhf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/bhe" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bhg" style="@style/MallIndexEntranceLayout">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/bhh" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@raw/mall_index_bankcard_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/MallIndexEntrancePic" />
+        <TextView android:id="@id/bhi" android:text="@string/d_0" android:layout_below="@id/bhh" style="@style/MallIndexEntranceText" />
+        <ImageView android:id="@id/bhj" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="-6.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/oi" android:layout_toRightOf="@id/bhh" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/jn" android:ellipsize="end" android:id="@id/bhk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/bhi" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

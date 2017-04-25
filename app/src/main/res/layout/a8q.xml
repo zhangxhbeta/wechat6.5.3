@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/c9g" android:layout_width="@dimen/gk" android:layout_height="@dimen/gk" android:src="@raw/success_icon" />
+                    <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:gravity="center" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj" android:text="@string/bkx" />
+                    <TextView android:textSize="@dimen/go" android:textColor="@color/l4" android:gravity="center" android:id="@id/i9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj" />
+                </LinearLayout>
+                <Button android:id="@id/c9h" android:visibility="gone" android:layout_marginBottom="@dimen/hf" android:text="@string/bkw" style="@style/MMSolidGreenLargeButton" />
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:gravity="center" android:id="@id/lh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

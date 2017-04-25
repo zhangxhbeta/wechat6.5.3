@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/t" style="@style/ChattingUISplit" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ChattingUIContent">
+        <LinearLayout android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/a2t">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/a77" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/a6f" style="@style/ChattingUIState" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/a76" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            <FrameLayout android:id="@id/a48" android:layout_width="@dimen/nd" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/du" android:layout_width="fill_parent" style="@style/ChattingUIThumbnail">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/h0" android:paddingTop="@dimen/h0" android:paddingRight="@dimen/nc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/a5g" android:background="@drawable/wg" android:layout_width="@dimen/ch" android:layout_height="@dimen/ch" android:layout_centerInParent="true" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h0" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:ellipsize="end" android:id="@id/a5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                            <TextView android:textSize="@dimen/ie" android:textColor="@color/hy" android:ellipsize="end" android:id="@id/a5i" android:paddingTop="@dimen/hh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:background="@color/d5" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="@dimen/h0" android:layout_marginRight="5.0dip" />
+                    <TextView android:gravity="center_vertical" android:id="@id/a5j" android:background="@drawable/dh" android:paddingLeft="@dimen/h0" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" style="@style/ChattingItemSourceTextView" />
+                </LinearLayout>
+                <ImageView android:id="@id/a4z" android:background="@drawable/d0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        <include android:id="@id/a2t" android:layout_alignParentRight="true" style="@style/ChattingUIAvatarMaskTo" layout="@layout/chatting_item_avatar_to" />
+    </RelativeLayout>
+</LinearLayout>

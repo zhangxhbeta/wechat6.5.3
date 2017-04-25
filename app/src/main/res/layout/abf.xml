@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cd4" android:background="@color/po" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/vx" android:background="@color/bb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/aq7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/l1" android:gravity="right" android:id="@id/cil" android:padding="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/aq7" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/cbj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/r0" android:gravity="center" android:id="@id/aqb" android:padding="@dimen/gj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gn" android:text="@string/cme" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/aq8" android:background="@color/du" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/cbk" android:visibility="gone" android:layout_width="@dimen/rm" android:layout_height="@dimen/rm" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/cbl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a_9" android:scaleType="center" android:layout_centerInParent="true" />
+        <include layout="@layout/sight_player_tip_golden_ratio" />
+    </RelativeLayout>
+</LinearLayout>

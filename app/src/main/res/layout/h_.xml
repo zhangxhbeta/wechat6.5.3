@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/chatting_item_avatar_from" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/ia" android:visibility="gone" style="@style/ChattingUISenderText" />
+        <TextView android:id="@id/ib" android:background="@drawable/d1" android:paddingLeft="20.0dip" android:paddingRight="15.0dip" android:minHeight="@dimen/ck" style="@style/ChattingUIText" />
+        <TextView android:layout_gravity="right" android:id="@id/a75" android:background="@drawable/as" android:layout_marginRight="10.0dip" android:text="@string/vl" style="@style/ChattingItemSourceTextView" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="i" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="bm" parent="@style/xk" />
+    <style name="bn" parent="@style/xl" />
+    <style name="ck" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="cl" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="cm" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="cn" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="co" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="cp" parent="@style/d_">
+        <item name="e3">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="cq" parent="@style/m5">
+        <item name="bg">@style/xm</item>
+    </style>
+    <style name="cr" parent="@style/m4">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="bg">@style/xm</item>
+    </style>
+    <style name="xk" parent="@style/xi">
+        <item name="bf">?android:actionBarItemBackground</item>
+        <item name="bg">?android:actionMenuTextAppearance</item>
+        <item name="bh">?android:actionMenuTextColor</item>
+        <item name="d8">@drawable/qb</item>
+        <item name="do">?android:ratingBarStyleIndicator</item>
+        <item name="dp">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="xl" parent="@style/xj">
+        <item name="bf">?android:actionBarItemBackground</item>
+        <item name="bg">?android:actionMenuTextAppearance</item>
+        <item name="bh">?android:actionMenuTextColor</item>
+        <item name="d8">@drawable/qb</item>
+        <item name="do">?android:ratingBarStyleIndicator</item>
+        <item name="dp">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="xm" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

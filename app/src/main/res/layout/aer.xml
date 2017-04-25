@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:minHeight="111.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/crp" android:background="@drawable/aon" android:layout_width="fill_parent" android:layout_height="111.0dip" android:minHeight="111.0dip">
+        <ImageView android:id="@id/crq" android:layout_width="217.0dip" android:layout_height="111.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/crr" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="6.0dip" android:scaleType="center" android:adjustViewBounds="true" android:minWidth="45.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffe2e2e2" android:id="@id/crt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d90" android:layout_toRightOf="@id/crr" android:layout_alignTop="@id/crr" />
+        <TextView android:textSize="30.0dip" android:textColor="@color/r0" android:gravity="left" android:id="@id/cru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_below="@id/crr" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/crv" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/b0" android:layout_toLeftOf="@id/cru" android:layout_alignTop="@id/cru" android:layout_alignBottom="@id/cru" />
+        <ImageView android:id="@id/crw" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/b0" android:layout_toLeftOf="@id/crv" android:layout_alignTop="@id/cru" android:layout_alignBottom="@id/cru" />
+        <ImageView android:id="@id/crx" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/b0" android:layout_toLeftOf="@id/crw" android:layout_alignTop="@id/cru" android:layout_alignBottom="@id/cru" />
+        <TextView android:textColor="@color/r0" android:id="@id/cry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/d_7" android:layout_alignTop="@id/crr" android:layout_alignParentRight="true" />
+        <TextView android:textColor="#4c000000" android:id="@id/crz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/d_3" android:layout_alignTop="@id/crr" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:id="@id/crs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

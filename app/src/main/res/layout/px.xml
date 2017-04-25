@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/MMBody">
+        <ImageView android:id="@id/asf" android:src="@drawable/xd" style="@style/FreeWifiIconIV" />
+        <TextView android:id="@id/asg" android:text="" style="@style/FreeWifiNoWifi" />
+        <TextView android:id="@id/ash" android:text="" style="@style/FreeWifiNoWifiDetail1" />
+        <TextView android:id="@id/asi" android:text="" style="@style/FreeWifiNoWifiDetail2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="15.0dip" style="@style/MMLine">
+        <ImageView android:layout_width="114.0dip" android:layout_height="18.0dip" android:src="@drawable/xk" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/av0" android:background="@color/ni" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <RelativeLayout android:id="@id/av1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:background="@drawable/e5" style="@style/FTSListSmallItem">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:layout_marginRight="10.0dip" android:src="@raw/search_add_icon_green" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/av2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{tip}" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/av3" android:background="@color/ni" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <RelativeLayout android:id="@id/av4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:background="@drawable/e3" style="@style/FTSListSmallItem">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8" android:layout_marginRight="@dimen/i0" android:src="@raw/addfriend_icon_search" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ib" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/av5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/MMFontTitleInList" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/ay1" android:singleLine="true" style="@style/MMFontTipInList" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/av6" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/av7" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+        <TextView android:textSize="14.0dip" android:layout_gravity="center" android:id="@id/hk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/bax" />
+    </LinearLayout>
+</LinearLayout>

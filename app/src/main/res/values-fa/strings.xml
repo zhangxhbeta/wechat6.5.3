@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">پیمایش به صفحه اصلی</string>
+    <string name="g">‏%1$s‏، %2$s</string>
+    <string name="h">‏%1$s‏، %2$s‏، %3$s</string>
+    <string name="i">پیمایش به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="j">تمام</string>
+    <string name="k">مشاهده همه</string>
+    <string name="l">انتخاب برنامه</string>
+    <string name="m">خاموش</string>
+    <string name="n">روشن</string>
+    <string name="o">جستجو…</string>
+    <string name="p">پاک کردن عبارت جستجو</string>
+    <string name="q">عبارت جستجو</string>
+    <string name="r">جستجو</string>
+    <string name="s">ارسال عبارت جستجو</string>
+    <string name="t">جستجوی شفاهی</string>
+    <string name="u">اشتراک‌گذاری با</string>
+    <string name="v">کوچک کردن</string>
+    <string name="w">۹۹۹+</string>
+    <string name="x">‏اشتراک‌گذاری با %s</string>
+</resources>

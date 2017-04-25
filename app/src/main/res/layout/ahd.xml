@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.wenote.ui.WNNoteFavVoiceBaseView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/aqg" android:background="#ff22292c" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/aqh" android:background="#ff22292c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/i_" android:src="@drawable/pw" />
+    <TextView android:textColor="@color/r0" android:id="@id/aqi" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{length}" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aqj" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/czt">
+            <SeekBar android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/czu" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/pt" android:minHeight="2.0dip" android:thumb="@drawable/py" android:thumbOffset="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/czt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/czv" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/r0" android:id="@id/czw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{length}" />
+        </LinearLayout>
+        <View android:id="@id/czv" android:background="@color/hn" android:layout_width="1.0dip" android:layout_height="24.0dip" android:layout_toLeftOf="@id/czx" android:layout_centerVertical="true" />
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/czx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/r0" android:id="@id/czy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ih" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.tencent.mm.plugin.wenote.ui.WNNoteFavVoiceBaseView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/acn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/aco" android:background="@color/kv" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMList" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/acp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage">
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="@dimen/gn" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4">
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gm" android:text="@string/b_d" />
+            <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gm" android:text="@string/b_c" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/hf" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6">
+            <Button android:id="@id/acq" android:text="@string/b_a" style="@style/MMSolidGreenLargeButton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cey" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/cez" android:background="@drawable/o_" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/brr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i_" android:src="@drawable/nl" />
+            <TextView android:textColor="@color/hy" android:ellipsize="end" android:layout_gravity="center" android:id="@id/cf0" android:paddingLeft="@dimen/gs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cri" android:layout_weight="1.0" />
+            <TextView android:id="@id/cf1" android:layout_marginTop="@dimen/i_" android:layout_marginRight="@dimen/hf" android:layout_marginBottom="@dimen/i_" android:text="@string/crh" style="@style/MMSolidWhiteSmallButton" />
+        </LinearLayout>
+        <ListView android:id="@id/cf2" android:background="@null" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hf" android:layout_marginRight="@dimen/hf" android:listSelector="@drawable/ic" android:cacheColorHint="#00000000" android:divider="@null" android:layout_weight="1.0" />
+        <com.tencent.mm.plugin.sns.ui.SnsCommentFooter android:id="@id/cf3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

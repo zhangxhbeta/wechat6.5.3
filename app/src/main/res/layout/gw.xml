@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include style="@style/ChattingUIAvatarMaskFrom" layout="@layout/chatting_item_avatar_from" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/ia" android:visibility="gone" style="@style/ChattingUISenderText" />
+        <FrameLayout android:id="@id/a48" android:layout_width="@dimen/nf" android:layout_height="@dimen/ne">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/acs" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="54.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/a5v" android:paddingLeft="@dimen/h0" android:paddingTop="@dimen/h0" android:paddingRight="@dimen/h0" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:ellipsize="end" android:id="@id/a5w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/nf" android:text="abcdefg" android:maxLines="1" />
+                        <TextView android:textSize="@dimen/ie" android:textColor="@color/hy" android:ellipsize="end" android:id="@id/a5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/nf" android:text="abcdefg" android:maxLines="1" />
+                    </LinearLayout>
+                    <ProgressBar android:layout_gravity="center" android:id="@id/a5y" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+                </FrameLayout>
+                <ImageView android:layout_gravity="center_vertical" android:background="@color/d5" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/a5z" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:layout_gravity="center" android:id="@id/a60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gc" android:src="@drawable/aik" android:scaleType="fitCenter" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/a61" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/a4z" android:background="@drawable/cr" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

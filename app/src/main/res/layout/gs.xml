@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/chatting_item_avatar_from" />
+    <FrameLayout android:id="@id/a48" android:background="@drawable/d2" android:layout_width="@dimen/nd" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/a5k" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingTop="@dimen/h0" android:paddingRight="@dimen/h0" android:paddingBottom="@dimen/h0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.MMImageView android:layout_gravity="center_vertical" android:id="@id/a5l" android:layout_width="34.0dip" android:layout_height="34.0dip" android:scaleType="centerCrop" />
+                <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h0">
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:ellipsize="end" android:id="@id/a5m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/ic" android:textColor="@color/hb" android:ellipsize="end" android:id="@id/a5n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ib" android:singleLine="true" android:layout_below="@id/a5m" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:background="@color/d5" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/dh" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip">
+                <com.tencent.mm.ui.widget.MMTextView android:textSize="@dimen/im" android:textColor="@color/ku" android:ellipsize="end" android:id="@id/a5o" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/a2q" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/a4z" android:background="@drawable/cr" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/ja" />
+    <PreferenceSmallCategory />
+    <CheckBoxPreference android:persistent="true" android:summary="@string/d3c" android:title="@string/d32" android:key="contact_info_voip_sound_notify" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/cgk" android:key="contact_info_voip_install" android:layout="@layout/tv" />
+    <Preference android:title="@string/cgq" android:key="contact_info_voip_uninstall" android:layout="@layout/vr" />
+    <PreferenceCategory />
+</PreferenceScreen>

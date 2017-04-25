@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/gt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/gq" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/gr" android:background="@drawable/a9" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/gs" android:background="@null" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a5" android:contentDescription="@string/e7" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/g8" android:background="@color/a3" android:layout_width="@dimen/dm" android:layout_height="@dimen/gm" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/gu" android:background="@null" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/actionbar_quit_webview_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c4" android:singleLine="true" android:layout_centerVertical="true" style="@style/MMActionBar.TitleTextStyle" />
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c4" android:singleLine="true" style="@style/MMActionBar.SubTitleTextStyle" />
+    </LinearLayout>
+</LinearLayout>

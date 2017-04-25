@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fff6f6f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:gravity="center_horizontal" android:id="@id/eu" android:background="#f7ffffff" android:paddingTop="@dimen/gp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/aue" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transcriptMode="disabled" style="@style/MMList" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/aui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="30.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/auj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="86.0dip">
+                <ImageButton android:layout_gravity="center_horizontal" android:id="@id/auk" android:background="@drawable/g0" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/g2" />
+                <TextView android:textSize="@dimen/gc" android:textColor="#ff555555" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/c9p" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/aul" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:layout_gravity="center_horizontal" android:id="@id/aum" android:background="@drawable/g0" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/g1" />
+                <TextView android:textSize="@dimen/gc" android:textColor="#ff555555" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/c9o" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/auf" android:background="#f7ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/aug" android:paddingTop="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+        <TextView android:textSize="14.0dip" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/bax" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/kv" android:paddingLeft="@dimen/hf" android:paddingTop="@dimen/gj" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/c0" android:textColor="@color/l4" android:gravity="center" android:id="@id/bon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:text="@string/bk6" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:gravity="center" android:id="@id/boo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i_" android:text="@string/bzs" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/om" android:background="@drawable/e3" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="fill_parent" android:layout_height="@dimen/i9">
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bzx" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/hg" android:textColor="@color/qw" android:id="@id/oo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad7" />
+        </LinearLayout>
+        <com.tencent.mm.ui.base.MMFormMobileInputView android:orientation="horizontal" android:id="@id/bop" android:layout_width="fill_parent" android:layout_height="@dimen/i9" form:form_hint="@string/bzw" />
+        <com.tencent.mm.ui.base.MMFormInputView android:id="@id/boq" form:form_layout="@layout/ys" form:form_title="@string/bzl" form:form_hint="@string/bcd" style="@style/MMFormInputView" />
+        <Button android:id="@id/a_3" android:visibility="gone" android:layout_marginTop="@dimen/gm" android:layout_marginBottom="@dimen/i_" android:text="@string/bc0" style="@style/MMSolidGreenLargeButton" />
+        <Button android:textSize="@dimen/gc" android:textColor="@color/rm" android:layout_gravity="center_horizontal" android:id="@id/bor" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i_" android:layout_marginBottom="@dimen/gm" android:text="@string/bxy" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bos" android:visibility="gone" style="@style/MMLine">
+            <CheckBox android:textSize="13.0dip" android:textColor="@color/bb" android:id="@id/bo0" android:paddingLeft="25.0dip" android:visibility="gone" android:checked="true" android:text="@string/bab" style="@style/RegUICheckBox" />
+            <TextView android:textSize="@dimen/ie" android:textColor="@color/hy" android:id="@id/bot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bac" />
+            <Button android:textSize="@dimen/ie" android:textColor="@color/rm" android:id="@id/bo1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bad" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="@dimen/hg" android:textColor="@color/rm" android:gravity="left" android:layout_gravity="left" android:id="@id/b__" android:background="@null" android:paddingLeft="48.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bc_" android:layout_weight="1.0" />
+        <View android:layout_gravity="center" android:background="@color/ix" android:layout_width="1.0dip" android:layout_height="26.0dip" />
+        <Button android:textSize="@dimen/hg" android:textColor="@color/rm" android:gravity="right" android:layout_gravity="right" android:id="@id/b_a" android:background="@null" android:paddingRight="48.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bce" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

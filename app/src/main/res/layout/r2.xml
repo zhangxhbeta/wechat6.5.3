@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameInfoView android:id="@id/avu" android:background="@color/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/avv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/avw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/po" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <RelativeLayout android:gravity="center" android:id="@id/avx" android:background="@drawable/g4" android:paddingTop="@dimen/bv" android:paddingBottom="@dimen/bz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/avy" android:layout_width="34.0dip" android:layout_height="36.0dip" android:layout_marginRight="@dimen/bv">
+                    <ImageView android:id="@id/jg" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/avz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oi" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="center" android:id="@id/aw0" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_toRightOf="@id/avy" android:layout_alignBottom="@id/avy" />
+                <ImageView android:id="@id/aw1" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/aw0" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/aw2" android:layout_width="1.0px" android:layout_height="20.0dip" android:src="@color/gm" />
+            <RelativeLayout android:gravity="center" android:id="@id/aw3" android:background="@drawable/g4" android:paddingTop="@dimen/bv" android:paddingBottom="@dimen/bz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/aw4" android:layout_width="34.0dip" android:layout_height="36.0dip" android:layout_marginRight="@dimen/bv">
+                    <ImageView android:id="@id/aw5" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/r0" android:gravity="center" android:id="@id/aw6" android:background="@drawable/og" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="center" android:id="@id/aw7" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_toRightOf="@id/aw4" android:layout_alignBottom="@id/aw4" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/aw8" android:layout_width="1.0px" android:layout_height="20.0dip" android:src="@color/gm" />
+            <RelativeLayout android:gravity="center" android:id="@id/aw9" android:background="@drawable/g4" android:paddingTop="@dimen/bv" android:paddingBottom="@dimen/bz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/aw_" android:layout_width="34.0dip" android:layout_height="36.0dip" android:layout_marginRight="@dimen/bv">
+                    <ImageView android:id="@id/awa" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentBottom="true" />
+                    <ImageView android:id="@id/awb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oi" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:gravity="center" android:id="@id/awc" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_toRightOf="@id/aw_" android:layout_alignBottom="@id/aw_" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.tencent.mm.plugin.game.ui.GameInfoView>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/hf" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flowlayout="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.MMTagPanelScrollView android:id="@id/act" android:background="@drawable/s7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="true">
+        <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel android:id="@id/acu" android:paddingTop="@dimen/i_" android:paddingBottom="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/i_" flowlayout:verticalSpacing="@dimen/bv" />
+    </com.tencent.mm.ui.base.MMTagPanelScrollView>
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/mh" android:gravity="center" android:id="@id/acv" android:padding="@dimen/bv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b_f" />
+    <ScrollView android:id="@id/acw" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/acx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/acy" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/acz" layout="@layout/contact_label_header" />
+                <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel android:id="@id/ad0" android:paddingTop="@dimen/i_" android:paddingBottom="@dimen/i_" android:layout_width="fill_parent" android:layout_height="wrap_content" flowlayout:horizontalSpacing="@dimen/i_" flowlayout:verticalSpacing="@dimen/bv" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ListView android:id="@id/ad1" android:background="@color/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMList" />
+</LinearLayout>

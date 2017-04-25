@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/hg" android:textColor="@color/i4" android:gravity="center" android:id="@id/aeh" android:background="@drawable/gm" android:paddingBottom="0.5dip" android:visibility="invisible" android:layout_width="@dimen/pf" android:layout_height="@dimen/pe" android:minHeight="@dimen/pe" android:text="@string/adf" android:layout_centerInParent="true" android:onClick="onClick" />
+    <Button android:textSize="@dimen/hg" android:textColor="@color/i4" android:id="@id/b2n" android:background="@drawable/gm" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="@dimen/pf" android:layout_height="@dimen/pe" android:drawableRight="@raw/image_gallery_load_hd_cancel_icon" android:layout_centerInParent="true" android:onClick="onClick" />
+    <LinearLayout android:gravity="center" android:id="@id/b2o" android:background="@drawable/gm" android:layout_width="@dimen/pf" android:layout_height="@dimen/pe" android:layout_centerInParent="true">
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@raw/image_gallery_image_download_done_icon" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/i4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adh" />
+    </LinearLayout>
+</RelativeLayout>

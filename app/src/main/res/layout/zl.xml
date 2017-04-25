@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:id="@id/bms" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ank" android:background="@null" android:layout_width="@dimen/hd" android:layout_height="@dimen/hd" android:layout_marginRight="@dimen/i_" />
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i_" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+        <TextView android:textSize="@dimen/ie" android:textColor="@color/r0" android:gravity="center" android:id="@id/bmn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jh" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bn8" android:background="@null" android:layout_width="@dimen/i3" android:layout_height="@dimen/i3">
+        <ImageView android:id="@id/bn9" android:layout_width="@dimen/i2" android:layout_height="@dimen/i2" android:src="@raw/default_avatar" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:gravity="center" android:id="@id/bn_" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/oi" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:gravity="center|right" android:id="@id/bna" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" style="@style/MMFontPreferenceSummary" />
+</LinearLayout>

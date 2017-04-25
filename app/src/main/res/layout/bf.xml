@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/akd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/go" android:layout_marginBottom="@dimen/go" android:minWidth="@dimen/h3" android:dividerPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/c0" android:textColor="@color/qw" android:gravity="center_vertical" android:id="@id/k8" android:paddingLeft="@dimen/hf" android:paddingRight="@dimen/hf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/he" />
+    <ImageView android:id="@id/k9" android:background="@color/ba" android:layout_width="fill_parent" android:layout_height="@dimen/dm" />
+    <ListView android:layout_gravity="center" android:id="@id/k_" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/aj" android:cacheColorHint="@null" android:divider="@color/o0" android:dividerHeight="@dimen/do" android:layout_weight="1.0" />
+    <ImageView android:background="@color/o0" android:layout_width="fill_parent" android:layout_height="@dimen/do" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ka" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/h3">
+        <Button android:enabled="false" android:textSize="@dimen/hg" android:textColor="@color/l4" android:id="@id/kb" android:background="@drawable/aj" android:layout_width="0.0dip" android:layout_height="@dimen/ha" android:text="@string/ld" android:layout_weight="1.0" />
+        <ImageView android:id="@id/kc" android:background="@color/o0" android:layout_width="@dimen/do" android:layout_height="fill_parent" />
+        <Button android:enabled="false" android:textSize="@dimen/hg" android:textColor="@color/l4" android:id="@id/kd" android:background="@drawable/aj" android:layout_width="0.0dip" android:layout_height="@dimen/ha" android:text="@string/le" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

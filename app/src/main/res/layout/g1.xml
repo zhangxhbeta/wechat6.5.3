@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.chatting.ChatFooterCustom android:orientation="horizontal" android:id="@id/a2h" android:background="@drawable/aau" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a2i" android:background="@drawable/a9l" android:layout_width="@dimen/ct" android:layout_height="fill_parent" android:src="@drawable/dc" android:scaleType="center" android:contentDescription="@string/a0a" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/a2j" android:layout_width="0.0px" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_weight="1.0">
+        <include layout="@layout/chatting_footer_custom_menu" />
+        <include layout="@layout/chatting_footer_custom_menu" />
+        <include layout="@layout/chatting_footer_custom_menu" />
+        <include layout="@layout/chatting_footer_custom_menu" />
+        <include layout="@layout/chatting_footer_custom_menu" />
+        <include layout="@layout/chatting_footer_custom_menu" />
+    </LinearLayout>
+    <ImageView android:id="@id/a2k" android:background="@drawable/bg" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/j0" />
+</com.tencent.mm.ui.chatting.ChatFooterCustom>

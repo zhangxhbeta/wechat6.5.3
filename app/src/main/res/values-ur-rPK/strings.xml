@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f">ہوم پر نیویگیٹ کریں</string>
+    <string name="g">%1$s, %2$s</string>
+    <string name="h">%1$s, %2$s, %3$s</string>
+    <string name="i">اوپر نیویگیٹ کریں</string>
+    <string name="abc_action_menu_overflow_description">مزید اختیارات</string>
+    <string name="j">ہو گیا</string>
+    <string name="k">سبھی دیکھیں</string>
+    <string name="l">ایک ایپ منتخب کریں</string>
+    <string name="m">آف</string>
+    <string name="n">آن</string>
+    <string name="o">تلاش کریں…</string>
+    <string name="p">استفسار صاف کریں</string>
+    <string name="q">استفسار تلاش کریں</string>
+    <string name="r">تلاش کریں</string>
+    <string name="s">استفسار جمع کرائیں</string>
+    <string name="t">صوتی تلاش</string>
+    <string name="u">اشتراک کریں مع</string>
+    <string name="v">سکیڑیں</string>
+    <string name="w">‎999+‎</string>
+    <string name="x">‏%s کے ساتھ اشتراک کریں</string>
+</resources>

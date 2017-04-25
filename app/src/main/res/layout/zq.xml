@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/f7" android:layout_width="@dimen/ez" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:text="@string/a_b" android:singleLine="false" style="@style/MMFontPreferenceLarge" />
+    <ImageView android:id="@id/bnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_mobile" android:contentDescription="@null" />
+    <ImageView android:id="@id/bne" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_qq" android:contentDescription="@null" />
+    <ImageView android:id="@id/bnf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_linkedin" android:contentDescription="@null" />
+    <ImageView android:id="@id/bng" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_facebook" android:contentDescription="@null" />
+    <ImageView android:id="@id/bnh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_google_contacts" android:contentDescription="@null" />
+    <ImageView android:id="@id/bni" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gs" android:src="@raw/profile_social_weishop" android:contentDescription="@null" />
+</LinearLayout>

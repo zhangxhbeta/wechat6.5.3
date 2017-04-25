@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/blp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/h3" android:minHeight="152.0dip" style="@style/PopupBgWithoutShadow">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/blq" android:paddingTop="@dimen/df" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/blr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj">
+                    <TextView android:textSize="@dimen/dk" android:textColor="@color/l4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bls" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:includeFontPadding="false" />
+                </LinearLayout>
+                <ViewStub android:id="@id/blt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gj" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/blu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="@dimen/dj" />
+            <TextView android:textSize="@dimen/ie" android:textColor="@color/e3" android:id="@id/blv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df" android:layout_marginBottom="@dimen/gs" android:includeFontPadding="false" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ayk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df">
+                <TextView android:textSize="@dimen/di" android:textColor="@color/et" android:ellipsize="end" android:id="@id/blw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bv" android:text="msg_title" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/dh" android:textColor="@color/e3" android:ellipsize="end" android:id="@id/aa2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/dh" android:textColor="@color/e3" android:ellipsize="end" android:id="@id/aa3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="msg_content" android:maxLines="2" />
+                    </LinearLayout>
+                    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/aa1" android:visibility="gone" android:layout_width="@dimen/rf" android:layout_height="@dimen/rf" android:layout_marginLeft="@dimen/i_" android:scaleType="centerCrop" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/blx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/di" android:textColor="@color/et" android:id="@id/aa9" android:visibility="gone" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df" android:text="source" style="@style/ConfirmDialogSource" />
+            <com.tencent.mm.ui.base.PasterEditText android:id="@id/aa6" android:visibility="gone" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df" style="@style/ConfirmDialogEditText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bly" android:paddingLeft="@dimen/gr" android:paddingTop="@dimen/gj" android:paddingRight="@dimen/gj" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/blz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/hg" android:textColor="@color/cc" android:id="@id/a_x" android:background="@drawable/ai" android:visibility="gone" android:layout_width="wrap_content" android:minWidth="@dimen/cz" style="@style/MMSolidWhiteSmallButton" />
+                <Button android:textSize="@dimen/hg" android:textColor="@color/h_" android:id="@id/a_y" android:background="@drawable/ai" android:visibility="gone" android:layout_width="wrap_content" android:minWidth="@dimen/cz" style="@style/MMSolidWhiteSmallButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

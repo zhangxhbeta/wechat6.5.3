@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/ar9" android:drawable="@drawable/aja" />
+    <item android:id="@id/bl9">
+        <scale android:drawable="@drawable/ajb" android:scaleWidth="100%" />
+    </item>
+</layer-list>

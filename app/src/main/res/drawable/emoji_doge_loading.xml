@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/adt" />
+    <item android:duration="100" android:drawable="@drawable/adu" />
+    <item android:duration="100" android:drawable="@drawable/adv" />
+    <item android:duration="100" android:drawable="@drawable/adw" />
+    <item android:duration="100" android:drawable="@drawable/adx" />
+</animation-list>

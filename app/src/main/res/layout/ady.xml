@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/api" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/apj" android:background="@drawable/a7z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="160.0dip">
+            <ImageView android:id="@id/apk" android:layout_width="80.0dip" android:layout_height="120.0dip" android:src="@raw/voice_rcd_hint" />
+            <ImageView android:id="@id/apl" android:background="@drawable/sj" android:layout_width="80.0dip" android:layout_height="120.0dip" android:layout_toRightOf="@id/apk" android:layout_alignBottom="@id/apk" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/r0" android:gravity="center" android:id="@id/co5" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/a0k" android:layout_below="@id/apk" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/apn" android:background="@drawable/a7z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="160.0dip">
+            <ImageView android:id="@id/apo" android:layout_width="160.0dip" android:layout_height="120.0dip" android:src="@drawable/a4d" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/r0" android:gravity="center" android:id="@id/app" android:background="@drawable/a4c" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/a0l" android:layout_below="@id/apo" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/co6" android:background="@drawable/a7z" android:visibility="gone" android:layout_width="140.0dip" android:layout_height="140.0dip">
+        <ProgressBar android:layout_gravity="center" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" style="@style/mediumCustomProgressBar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/apq" android:background="@drawable/a7z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="160.0dip" android:layout_height="120.0dip" android:src="@drawable/a80" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/r0" android:gravity="center" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/a13" />
+    </LinearLayout>
+</LinearLayout>

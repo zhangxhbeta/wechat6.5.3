@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <IconPreference android:title="@string/acm" android:icon="@drawable/x9" android:key="find_friends_by_micromsg" />
+    <IconPreference android:title="@string/arw" android:icon="@raw/find_more_friend_scan" android:key="find_friends_by_qrcode" />
+    <PreferenceCategory />
+    <IconPreference android:title="@string/ars" android:icon="@raw/find_more_friend_mobile_icon" android:key="find_friends_by_mobile" />
+    <IconPreference android:title="@string/aro" android:icon="@raw/find_more_friend_mobile_icon" android:key="find_friends_by_google_account" />
+    <IconPreference android:title="@string/arm" android:icon="@drawable/x_" android:key="find_friends_by_facebook" />
+    <PreferenceCategory />
+    <IconPreference android:title="@string/bo2" android:icon="@raw/find_more_friend_near_icon" android:key="find_friends_by_near" />
+</PreferenceScreen>

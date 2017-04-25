@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lb" android:background="@color/po" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/ccn" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="18.0sp" android:layout_gravity="center_vertical" android:id="@id/a74" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="download" style="@style/adCompDownApkBtn" />
+        <com.tencent.mm.plugin.sns.ui.widget.SnsTextProgressBar android:layout_gravity="center_vertical" android:id="@id/cco" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="50" custom:textSize="18.0dip" style="@style/adCompProgress" />
+    </FrameLayout>
+</RelativeLayout>

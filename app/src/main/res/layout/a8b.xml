@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ni" android:paddingLeft="@dimen/hf" android:paddingTop="@dimen/bv" android:paddingBottom="@dimen/ib" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ie" android:textColor="@color/hb" android:id="@id/a97" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{header}" android:layout_alignParentBottom="true" />
+</RelativeLayout>

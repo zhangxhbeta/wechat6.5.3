@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" style="@style/WalletBody">
+        <TextView android:id="@id/cqj" android:text="@string/d_r" style="@style/WalletElementTips" />
+        <LinearLayout style="@style/WalletMultiFormStyle">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:gravity="center|right" android:id="@id/csi" android:visibility="gone" android:clickable="false" wallet:titleText="@string/d_o" wallet:contentTextColor="@color/hy" wallet:contentEnabled="false" wallet:contentFocusable="false" wallet:contentClickable="false" style="@style/WalletNameStyle" />
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@id/buj" android:minHeight="45.0dip" wallet:titleText="@string/d_q" wallet:contentHint="@string/d_p" style="@style/WalletBankcardIdStyle" />
+        </LinearLayout>
+        <Button android:id="@id/a_3" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/ji" style="@style/WalletLineButton" />
+        <TextView android:textSize="@dimen/gc" android:textColor="@color/qb" android:layout_gravity="center_horizontal" android:id="@id/csj" android:paddingBottom="@dimen/i_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gj" android:text="@string/d84" style="@style/WalletCommonPadding" />
+        <TextView android:layout_gravity="bottom" android:id="@id/crc" android:layout_height="fill_parent" style="@style/WalletPowerByTenpayTips" />
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/tenpay_keyboard_layot" />
+</RelativeLayout>

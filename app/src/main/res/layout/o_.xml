@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aoi" android:background="@drawable/sa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aoj" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/nl" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/aok" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:src="@raw/fav_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/e3" android:gravity="center_vertical" android:id="@id/aol" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/anx" android:layout_toLeftOf="@id/aok" android:layout_toRightOf="@id/aoj" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/e3" android:gravity="center_vertical" android:id="@id/aom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/any" android:layout_toLeftOf="@id/aok" android:layout_toRightOf="@id/aoj" android:layout_centerVertical="true" />
+</RelativeLayout>

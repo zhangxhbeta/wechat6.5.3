@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:id="@id/c3p" android:padding="0.0dip" android:text="@string/bzn" android:layout_weight="1.0" style="@style/MMLineLabel" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c3q" android:background="@drawable/s6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hf" android:minHeight="@dimen/i9">
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/hy" android:id="@id/c3r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gj" android:text="@string/cj7" />
+                <TextView android:textSize="@dimen/c0" android:textColor="@color/hy" android:gravity="left" android:id="@id/c2c" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hf">
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:id="@id/c3s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gj" android:text="@string/bzl" />
+                <EditText android:id="@id/c3t" android:minHeight="@dimen/gf" android:hint="@string/bzj" style="@style/MMLineEditPass" />
+            </LinearLayout>
+            <View style="@style/MMSplit" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hf">
+                <TextView android:textSize="@dimen/hg" android:textColor="@color/bb" android:id="@id/c3u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gj" android:text="@string/bzi" />
+                <EditText android:id="@id/c3v" android:minHeight="@dimen/gf" android:hint="@string/bzk" style="@style/MMLineEditPass" />
+            </LinearLayout>
+            <View style="@style/MMSplit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

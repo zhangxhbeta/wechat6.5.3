@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/lq" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/lw">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/f6" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:layout_marginLeft="@dimen/lx" android:scaleType="fitCenter" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m1" android:textColor="@color/l4" android:id="@id/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lx" />
+            <TextView android:textSize="@dimen/m0" android:textColor="@color/bj" android:id="@id/az2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lx" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="0.0dip" android:id="@id/fn" android:background="@drawable/lh" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lx" android:button="@null" android:text="" android:drawablePadding="0.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/g8" android:layout_marginLeft="@dimen/lx" style="@style/DividerLine" />
+</LinearLayout>

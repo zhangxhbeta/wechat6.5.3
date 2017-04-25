@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.SearchViewNotRealTimeHelper android:id="@id/bvh" android:background="@color/x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/da" />
+    <include layout="@layout/mm_action_bar_title" />
+    <FrameLayout android:id="@id/bvi" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/bvj" android:layout_width="fill_parent" android:layout_height="280.0dip">
+                    <FrameLayout android:id="@id/b19" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/b1_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <RelativeLayout android:id="@id/b1a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <ImageButton android:layout_gravity="right" android:id="@id/b1b" android:background="@drawable/jn" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_marginTop="215.0dip" android:layout_marginRight="@dimen/rg" />
+            <RelativeLayout android:id="@id/bvk" android:background="@color/r0" android:layout_width="fill_parent" android:layout_height="@dimen/s1" android:layout_marginTop="280.0dip">
+                <com.tencent.mm.plugin.location.ui.PoiHeaderView android:id="@id/bvl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@id/bvm" android:background="@color/r0" android:layoutAnimation="@anim/av" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:layout_below="@id/bvl" />
+                <RelativeLayout android:id="@id/bvn" android:background="@drawable/e3" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+                    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/largeCustomProgressBar" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@id/bvo" android:background="@color/r0" android:focusable="true" android:visibility="gone" android:layoutAnimation="@anim/av" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" />
+        <TextView android:gravity="center" android:id="@id/bvp" android:background="@color/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bb7" />
+        <RelativeLayout android:id="@id/bvq" android:background="@color/r0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/largeCustomProgressBar" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

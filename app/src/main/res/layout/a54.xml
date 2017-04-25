@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/e3" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/h0" android:paddingRight="@dimen/gj" android:paddingBottom="@dimen/h0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c0u" android:paddingTop="@dimen/bv" android:paddingBottom="@dimen/bv" android:layout_width="@dimen/i8" android:layout_height="@dimen/hd" android:src="@raw/sns_shoot_share_normal" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/hg" android:textColor="@color/l4" android:gravity="center|left" android:id="@id/ag5" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="@dimen/hd" android:text="@string/csn" android:layout_toRightOf="@id/c0u" />
+    <TextView android:textSize="@dimen/gc" android:textColor="@color/hy" android:ellipsize="end" android:gravity="center|right" android:id="@id/c0v" android:paddingLeft="@dimen/i_" android:paddingRight="@dimen/i_" android:layout_width="wrap_content" android:layout_height="@dimen/hd" android:maxWidth="280.0dip" android:text="@string/cq3" android:singleLine="true" android:layout_toRightOf="@id/ag5" android:layout_alignParentRight="true" />
+</RelativeLayout>
