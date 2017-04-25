@@ -1,0 +1,138 @@
+package com.tencent.mm.svg.a.a;
+
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Paint.Cap;
+import android.graphics.Paint.Join;
+import android.graphics.Paint.Style;
+import android.graphics.Path;
+import android.os.Looper;
+import com.tencent.mm.plugin.gif.MMGIFException;
+import com.tencent.mm.svg.WeChatSVGRenderC2Java;
+import com.tencent.mm.svg.c;
+import com.tencent.smtt.sdk.WebView;
+
+public final class ad extends c {
+    private final int height = MMGIFException.D_GIF_ERR_DATA_TOO_BIG;
+    private final int width = MMGIFException.D_GIF_ERR_DATA_TOO_BIG;
+
+    protected final int j(int i, Object... objArr) {
+        switch (i) {
+            case 0:
+                return MMGIFException.D_GIF_ERR_DATA_TOO_BIG;
+            case 1:
+                return MMGIFException.D_GIF_ERR_DATA_TOO_BIG;
+            case 2:
+                Canvas canvas = (Canvas) objArr[0];
+                Looper looper = (Looper) objArr[1];
+                c.d(looper);
+                c.c(looper);
+                Paint g = c.g(looper);
+                g.setFlags(385);
+                g.setStyle(Style.FILL);
+                Paint g2 = c.g(looper);
+                g2.setFlags(385);
+                g2.setStyle(Style.STROKE);
+                g.setColor(WebView.NIGHT_MODE_COLOR);
+                g2.setStrokeWidth(1.0f);
+                g2.setStrokeCap(Cap.BUTT);
+                g2.setStrokeJoin(Join.MITER);
+                g2.setStrokeMiter(4.0f);
+                g2.setPathEffect(null);
+                c.a(g2, looper).setStrokeWidth(1.0f);
+                canvas.save();
+                g2 = c.a(g, looper);
+                g2.setColor(-14187817);
+                Path h = c.h(looper);
+                h.moveTo(0.0f, 0.0f);
+                h.lineTo(108.07031f, 0.0f);
+                h.lineTo(108.07031f, 108.07031f);
+                h.lineTo(0.0f, 108.07031f);
+                h.lineTo(0.0f, 0.0f);
+                h.close();
+                canvas.drawPath(h, g2);
+                canvas.restore();
+                canvas.save();
+                Paint a = c.a(g, looper);
+                a.setColor(-1);
+                Path h2 = c.h(looper);
+                h2.moveTo(17.448853f, 35.66546f);
+                h2.lineTo(17.448853f, 75.79919f);
+                h2.cubicTo(17.448853f, 77.45719f, 18.7972f, 78.80127f, 20.453722f, 78.80127f);
+                h2.lineTo(87.61659f, 78.80127f);
+                h2.cubicTo(89.27613f, 78.80127f, 90.62146f, 77.452194f, 90.62146f, 75.79919f);
+                h2.lineTo(90.62146f, 35.66546f);
+                h2.lineTo(58.135864f, 60.45544f);
+                h2.cubicTo(55.81595f, 62.361008f, 52.25586f, 62.362236f, 49.93445f, 60.45544f);
+                h2.lineTo(17.448853f, 35.66546f);
+                h2.close();
+                WeChatSVGRenderC2Java.setFillType(h2, 2);
+                canvas.drawPath(h2, a);
+                canvas.restore();
+                canvas.save();
+                a = c.a(g, looper);
+                a.setColor(-1);
+                h2 = c.h(looper);
+                h2.moveTo(19.689577f, 29.269043f);
+                h2.cubicTo(18.03435f, 29.269043f, 17.749979f, 30.091743f, 19.05684f, 31.10848f);
+                h2.lineTo(51.671455f, 56.482616f);
+                h2.cubicTo(52.977234f, 57.49851f, 55.09323f, 57.49935f, 56.400093f, 56.482616f);
+                h2.lineTo(89.01471f, 31.10848f);
+                h2.cubicTo(90.32048f, 30.092587f, 90.03502f, 29.269043f, 88.38197f, 29.269043f);
+                h2.lineTo(19.689577f, 29.269043f);
+                h2.close();
+                WeChatSVGRenderC2Java.setFillType(h2, 2);
+                canvas.drawPath(h2, a);
+                canvas.restore();
+                canvas.save();
+                g2 = c.a(g, looper);
+                g2.setColor(-14187817);
+                h = c.h(looper);
+                h.moveTo(0.0f, 0.0f);
+                h.lineTo(108.07031f, 0.0f);
+                h.lineTo(108.07031f, 108.07031f);
+                h.lineTo(0.0f, 108.07031f);
+                h.lineTo(0.0f, 0.0f);
+                h.close();
+                canvas.drawPath(h, g2);
+                canvas.restore();
+                canvas.save();
+                a = c.a(g, looper);
+                a.setColor(-1);
+                h2 = c.h(looper);
+                h2.moveTo(17.448853f, 35.66546f);
+                h2.lineTo(17.448853f, 75.79919f);
+                h2.cubicTo(17.448853f, 77.45719f, 18.7972f, 78.80127f, 20.453722f, 78.80127f);
+                h2.lineTo(87.61659f, 78.80127f);
+                h2.cubicTo(89.27613f, 78.80127f, 90.62146f, 77.452194f, 90.62146f, 75.79919f);
+                h2.lineTo(90.62146f, 35.66546f);
+                h2.lineTo(58.135864f, 60.45544f);
+                h2.cubicTo(55.81595f, 62.361008f, 52.25586f, 62.362236f, 49.93445f, 60.45544f);
+                h2.lineTo(17.448853f, 35.66546f);
+                h2.lineTo(17.448853f, 35.66546f);
+                h2.close();
+                WeChatSVGRenderC2Java.setFillType(h2, 2);
+                canvas.drawPath(h2, a);
+                canvas.restore();
+                canvas.save();
+                g = c.a(g, looper);
+                g.setColor(-1);
+                h2 = c.h(looper);
+                h2.moveTo(19.689577f, 29.269043f);
+                h2.cubicTo(18.03435f, 29.269043f, 17.749979f, 30.091743f, 19.05684f, 31.10848f);
+                h2.lineTo(51.671455f, 56.482616f);
+                h2.cubicTo(52.977234f, 57.49851f, 55.09323f, 57.49935f, 56.400093f, 56.482616f);
+                h2.lineTo(89.01471f, 31.10848f);
+                h2.cubicTo(90.32048f, 30.092587f, 90.03502f, 29.269043f, 88.38197f, 29.269043f);
+                h2.lineTo(19.689577f, 29.269043f);
+                h2.lineTo(19.689577f, 29.269043f);
+                h2.close();
+                WeChatSVGRenderC2Java.setFillType(h2, 2);
+                canvas.drawPath(h2, g);
+                canvas.restore();
+                c.f(looper);
+                break;
+        }
+        return 0;
+    }
+}

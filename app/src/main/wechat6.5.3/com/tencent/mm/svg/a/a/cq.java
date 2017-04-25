@@ -1,0 +1,137 @@
+package com.tencent.mm.svg.a.a;
+
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.Paint.Cap;
+import android.graphics.Paint.Join;
+import android.graphics.Paint.Style;
+import android.graphics.Path;
+import android.os.Looper;
+import com.tencent.mm.svg.WeChatSVGRenderC2Java;
+import com.tencent.mm.svg.c;
+import com.tencent.smtt.sdk.WebView;
+
+public final class cq extends c {
+    private final int height = 192;
+    private final int width = 192;
+
+    protected final int j(int i, Object... objArr) {
+        switch (i) {
+            case 0:
+                return 192;
+            case 1:
+                return 192;
+            case 2:
+                Canvas canvas = (Canvas) objArr[0];
+                Looper looper = (Looper) objArr[1];
+                Matrix d = c.d(looper);
+                float[] c = c.c(looper);
+                Paint g = c.g(looper);
+                g.setFlags(385);
+                g.setStyle(Style.FILL);
+                Paint g2 = c.g(looper);
+                g2.setFlags(385);
+                g2.setStyle(Style.STROKE);
+                g.setColor(WebView.NIGHT_MODE_COLOR);
+                g2.setStrokeWidth(1.0f);
+                g2.setStrokeCap(Cap.BUTT);
+                g2.setStrokeJoin(Join.MITER);
+                g2.setStrokeMiter(4.0f);
+                g2.setPathEffect(null);
+                Paint a = c.a(g2, looper);
+                a.setStrokeWidth(1.0f);
+                canvas.save();
+                float[] a2 = c.a(c, 1.0f, 0.0f, 58.0f, 0.0f, 1.0f, 47.0f);
+                d.reset();
+                d.setValues(a2);
+                canvas.concat(d);
+                canvas.save();
+                a = c.a(a, looper);
+                a.setColor(-8421505);
+                a.setStrokeWidth(6.0f);
+                Path h = c.h(looper);
+                h.moveTo(14.789806f, 18.17482f);
+                h.cubicTo(16.673128f, 8.137144f, 26.477371f, 0.0f, 36.695896f, 0.0f);
+                h.lineTo(39.30462f, 0.0f);
+                h.cubicTo(49.5197f, 0.0f, 59.32843f, 8.142699f, 61.21071f, 18.17482f);
+                h.lineTo(61.332733f, 18.82518f);
+                h.cubicTo(63.216057f, 28.862856f, 56.45908f, 37.0f, 46.242638f, 37.0f);
+                h.lineTo(29.75788f, 37.0f);
+                h.cubicTo(19.540527f, 37.0f, 12.785503f, 28.857302f, 14.667783f, 18.82518f);
+                h.lineTo(14.789806f, 18.17482f);
+                h.close();
+                canvas.drawPath(h, a);
+                canvas.restore();
+                canvas.save();
+                a = c.a(g, looper);
+                a.setColor(-8421505);
+                h = c.h(looper);
+                h.moveTo(0.0f, 58.108116f);
+                h.lineTo(0.0f, 75.19188f);
+                h.cubicTo(0.0f, 95.13586f, 17.01318f, 98.0f, 38.0f, 98.0f);
+                h.cubicTo(58.991436f, 98.0f, 76.0f, 95.13384f, 76.0f, 75.19188f);
+                h.lineTo(76.0f, 58.108116f);
+                h.cubicTo(76.0f, 57.60916f, 75.98935f, 57.11257f, 75.96826f, 56.618538f);
+                h.cubicTo(75.98917f, 56.4833f, 76.0f, 56.34498f, 76.0f, 56.20427f);
+                h.lineTo(76.0f, 24.845732f);
+                h.cubicTo(76.0f, 23.275345f, 74.65565f, 22.0f, 72.9973f, 22.0f);
+                h.lineTo(3.0026984f, 22.0f);
+                h.cubicTo(1.3513777f, 22.0f, 0.0f, 23.274078f, 0.0f, 24.845732f);
+                h.lineTo(0.0f, 56.20427f);
+                h.cubicTo(0.0f, 56.34515f, 0.010819831f, 56.48366f, 0.03171553f, 56.619087f);
+                h.cubicTo(0.0106397765f, 57.112938f, 0.0f, 57.60935f, 0.0f, 58.108116f);
+                h.close();
+                WeChatSVGRenderC2Java.setFillType(h, 2);
+                canvas.drawPath(h, a);
+                canvas.restore();
+                canvas.save();
+                c = c.a(a2, 1.0f, 0.0f, 16.0f, 0.0f, 1.0f, 36.0f);
+                d.reset();
+                d.setValues(c);
+                canvas.concat(d);
+                canvas.save();
+                Paint a3 = c.a(g, looper);
+                a3.setColor(-1);
+                h = c.h(looper);
+                h.moveTo(22.0f, 0.0f);
+                h.cubicTo(34.150265f, 0.0f, 44.0f, 9.849735f, 44.0f, 22.0f);
+                h.cubicTo(44.0f, 34.150265f, 34.150265f, 44.0f, 22.0f, 44.0f);
+                h.cubicTo(9.849735f, 44.0f, 0.0f, 34.150265f, 0.0f, 22.0f);
+                h.cubicTo(0.0f, 9.849735f, 9.849735f, 0.0f, 22.0f, 0.0f);
+                h.close();
+                canvas.drawPath(h, a3);
+                canvas.restore();
+                canvas.save();
+                a3 = c.a(g, looper);
+                a3.setColor(-8421505);
+                h = c.h(looper);
+                h.moveTo(16.38889f, 15.111111f);
+                h.cubicTo(16.38889f, 13.178115f, 15.045743f, 11.611111f, 13.388889f, 11.611111f);
+                h.cubicTo(11.732035f, 11.611111f, 10.388889f, 13.178115f, 10.388889f, 15.111111f);
+                h.cubicTo(10.388889f, 17.044107f, 11.732035f, 18.61111f, 13.388889f, 18.61111f);
+                h.cubicTo(15.045743f, 18.61111f, 16.38889f, 17.044107f, 16.38889f, 15.111111f);
+                h.close();
+                h.moveTo(33.38889f, 15.111111f);
+                h.cubicTo(33.38889f, 13.178115f, 32.045742f, 11.611111f, 30.38889f, 11.611111f);
+                h.cubicTo(28.732035f, 11.611111f, 27.38889f, 13.178115f, 27.38889f, 15.111111f);
+                h.cubicTo(27.38889f, 17.044107f, 28.732035f, 18.61111f, 30.38889f, 18.61111f);
+                h.cubicTo(32.045742f, 18.61111f, 33.38889f, 17.044107f, 33.38889f, 15.111111f);
+                h.close();
+                h.moveTo(37.0f, 23.0f);
+                h.cubicTo(36.36263f, 30.839403f, 29.890337f, 37.0f, 22.0f, 37.0f);
+                h.cubicTo(14.109663f, 37.0f, 7.63737f, 30.839403f, 7.0f, 23.0f);
+                h.lineTo(37.0f, 23.0f);
+                h.lineTo(37.0f, 23.0f);
+                h.close();
+                WeChatSVGRenderC2Java.setFillType(h, 2);
+                canvas.drawPath(h, a3);
+                canvas.restore();
+                canvas.restore();
+                canvas.restore();
+                c.f(looper);
+                break;
+        }
+        return 0;
+    }
+}
