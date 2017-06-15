@@ -14,6 +14,10 @@ import com.tencent.mm.protocal.c.aib;
 import com.tencent.mm.sdk.platformtools.be;
 import com.tencent.mm.sdk.platformtools.v;
 
+/**
+ * 朋友圈图片下载链接相关类，
+ * 里面有一段时用来拼接下载链接的
+ */
 public abstract class e extends b {
     protected boolean joL = false;
     protected boolean joM = false;
@@ -26,6 +30,11 @@ public abstract class e extends b {
         super(aVar, aVar2);
     }
 
+    /**
+     * 返回图片的链接
+     * @param str
+     * @return
+     */
     public final String AS(String str) {
         String str2;
         Exception e;

@@ -5,6 +5,9 @@ import com.tencent.mm.ba.a;
 import com.tencent.mmdb.FileUtils;
 import java.util.LinkedList;
 
+/**
+ * aib.mIh 是图片 token
+ */
 public final class aib extends a {
     public String aXz;
     public int aYp;
@@ -32,10 +35,10 @@ public final class aib extends a {
     public int mIb;
     public long mIc;
     public String mId;
-    public String mIe;
+    public String mIe; // token
     public int mIf;
     public String mIg;
-    public String mIh;
+    public String mIh; // token 2
     public int mIi;
     public String mIj;
     public String mIk;

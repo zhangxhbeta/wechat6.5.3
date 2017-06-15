@@ -35,6 +35,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 看别人朋友圈界面列表适配器
+ */
 @SuppressLint({"UseSparseArrays"})
 public final class aq extends BaseAdapter {
     boolean bcR = false;
